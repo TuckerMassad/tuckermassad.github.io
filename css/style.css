@@ -1,8 +1,8 @@
 @charset "utf-8";
 /*------------------------------------*\
-    $RESET
+    Reset
 \*------------------------------------*/
-/* A more considered reset; more of a restart... As per: csswizardry.com/2011/10/reset-restarted */
+/* Credit to - sswizardry.com/2011/10/reset-restarted */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
 a, abbr, address, cite, code,
@@ -71,7 +71,7 @@ textarea {
 
 
 /*------------------------------------*\
-    $MAIN
+    Main
 \*------------------------------------*/
 html {
     background-color: #f6f9f9;
@@ -127,8 +127,8 @@ body {
                 width: 21px;
                 height: 19px;
             }
-            .dribbble {
-                background-image: url(../img/dribbble.png);
+            .github {
+                background-image: url(../img/github.png);
                 width: 21px;
                 height: 19px;
             }
@@ -170,7 +170,7 @@ body {
 
 
 /*------------------------------------*\
-    $TYPOGRAPHY
+    Typography
 \*------------------------------------*/
 p,
 ul, ol, dl,
@@ -198,7 +198,7 @@ a:hover, a:focus {
 
 
 /*------------------------------------*\
-    $MISC
+    Misc
 \*------------------------------------*/
 a img:hover,
 .social-icons a:hover {
@@ -321,7 +321,7 @@ Copyright (c) 2012 Dan Eden
 
 
 /*------------------------------------*\
-    $MOBILE
+    Mobile
 \*------------------------------------*/
 @media handheld, only screen and (max-width: 720px) {
     .avatar,
