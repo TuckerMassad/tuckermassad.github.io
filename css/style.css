@@ -150,23 +150,25 @@ body {
             }
 
 .rightSideContent{
-    float: right;
+    display: inline-block;
     width: 900px;
     font-size: 18px;
 }
 
 .middleContent{
+    display: inline-block;
     float: left;
     width: 900px;
     font-size: 14px;
 }
 
 .languageContent{
-    display: inline;
+    display: inline-block;
     font-size: 12px;
 }
 
 .experienceContent{
+    display: inline-block;
     display: inline;
     font-size: 12px;
     text-justify: auto;
