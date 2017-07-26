@@ -156,14 +156,14 @@ body {
 }
 
 .middleContent{
-    display: inline-flex;
+    display: inline-block;
     float: left;
     width: 900px;
     font-size: 14px;
 }
 
 .languageContent{
-    display: inline-flex;
+    display: inline-block;
     font-size: 12px;
 }
 
