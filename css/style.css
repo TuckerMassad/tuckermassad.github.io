@@ -156,19 +156,17 @@ body {
 }
 
 .middleContent{
-    display: inline-block;
     float: left;
     width: 900px;
     font-size: 14px;
 }
 
 .languageContent{
-    display: inline-block;
+    float: left;
     font-size: 12px;
 }
 
 .experienceContent{
-    display: inline-flex;
     font-size: 12px;
     text-justify: auto;
 }
