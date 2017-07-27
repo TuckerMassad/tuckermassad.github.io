@@ -152,13 +152,13 @@ body {
 .rightSideContent{
     display: inline-flex;
     width: 900px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .middleContent{
     float: left;
     width: 900px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .languageContent{
