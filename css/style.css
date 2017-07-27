@@ -85,7 +85,8 @@ html {
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
-    margin: 10%;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .avatar {
@@ -169,6 +170,12 @@ body {
 .experienceContent{
     font-size: 12px;
     text-justify: auto;
+}
+
+.resumeContent{
+    display: flex;
+    font-size: 12px;
+
 }
 
 
