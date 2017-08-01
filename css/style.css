@@ -173,10 +173,18 @@ body {
 }
 
 .resumeContent{
-    display: flex;
-    font-size: 12px;
+    align-content: center;
+    font-size: 14px;
 
 }
+
+#box {
+    position: relative;
+    text-align: center;
+    padding: 5em 0;
+    width: 400px;
+    margin: 20px auto;
+ }
 
 
 
