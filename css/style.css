@@ -150,7 +150,7 @@ body {
                 height: 9px;
             }
 
-.rightSideContent{
+#rightSideContent{
     display: inline-flex;
     width: 900px;
     font-size: 20px;
