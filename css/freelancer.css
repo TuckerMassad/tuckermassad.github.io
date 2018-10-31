@@ -46,8 +46,22 @@ hr.star-dark:after {
   font-size: 2em;
 }
 
+.projectList{
+    width:45%;
+    padding:1em;
+    margin:0 auto;
+}
+
 hr.star-light {
   border-color: #fff;
+}
+
+hr.reg-light {
+  border-color: #fff;
+}
+
+hr.blue-light {
+  border-color: #2C3E50;
 }
 
 hr.star-light:after {
