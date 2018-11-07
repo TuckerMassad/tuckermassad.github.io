@@ -61,25 +61,25 @@ hr.reg-light {
 }
 
 hr.blue-light {
-  border-color: #5a8a8b;
+  border-color: #27567b;
 }
 
 hr.star-light:after {
   color: #fff;
-  background-color: #e1695b;
+  background-color: #b63b3b;
 }
 
 hr.star-dark {
-  border-color: #5a8a8b;
+  border-color: #27567b;
 }
 
 hr.star-dark-sm {
-  border-color: #5a8a8b;
+  border-color: #27567b;
 }
 
 hr.star-dark:after {
-  color: #e1695b;
-  background-color: white;
+  color: #b63b3b;
+  background-color: #f7ebd8;
 }
 
 section {
@@ -146,7 +146,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #e1695b;
+  color: #b63b3b;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -154,7 +154,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #e1695b;
+  color: #b63b3b;
 }
 
 #mainNav .navbar-toggler {
@@ -179,11 +179,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #e1695b;
+    background: #b63b3b;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #e1695b;
+    background: #b63b3b;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -227,6 +227,11 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  background-color: #f7ebd8;
+}
+
+#contact {
+    background-color: #f7ebd8;
 }
 
 .portfolio .portfolio-item {
@@ -349,7 +354,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #e1695b;
+  color: #b63b3b;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -359,7 +364,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #5a8a8b;
+  background-color: #27567b;
   color: #fff;
 }
 
@@ -368,11 +373,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #e1695b;
+  color: #b63b3b;
 }
 
 a:focus, a:hover, a:active {
-  color: #e1695b;
+  color: #b63b3b;
 }
 
 .btn {
@@ -380,34 +385,34 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #e1695b !important;
+  background-color: #b63b3b !important;
 }
 
 .bg-secondary {
-  background-color: #5a8a8b !important;
+  background-color: #27567b !important;
 }
 
 .text-primary {
-  color: #e1695b !important;
+  color: #b63b3b !important;
 }
 
 .text-secondary {
-  color: #5a8a8b !important;
+  color: #27567b !important;
 }
 
 .btn-primary {
-  background-color: #e1695b;
-  border-color: #e1695b;
+  background-color: #b63b3b;
+  border-color: #b63b3b;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #e1695b;
-  border-color: #e1695b;
+  background-color: #b63b3b;
+  border-color: #b63b3b;
 }
 
 .btn-secondary {
-  background-color: #5a8a8b;
-  border-color: #5a8a8b;
+  background-color: #27567b;
+  border-color: #27567b;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
