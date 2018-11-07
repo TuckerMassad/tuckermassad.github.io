@@ -66,7 +66,7 @@ hr.blue-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #f3645b;
+  background-color: #e67963;
 }
 
 hr.star-dark {
@@ -78,7 +78,7 @@ hr.star-dark-sm {
 }
 
 hr.star-dark:after {
-  color: #f3645b;
+  color: #e67963;
   background-color: white;
 }
 
@@ -146,7 +146,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #f3645b;
+  color: #e67963;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -154,7 +154,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #f3645b;
+  color: #e67963;
 }
 
 #mainNav .navbar-toggler {
@@ -179,11 +179,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #f3645b;
+    background: #e67963;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #f3645b;
+    background: #e67963;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -349,7 +349,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #f3645b;
+  color: #e67963;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -368,11 +368,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #f3645b;
+  color: #e67963;
 }
 
 a:focus, a:hover, a:active {
-  color: #f3645b;
+  color: #e67963;
 }
 
 .btn {
@@ -380,7 +380,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #f3645b !important;
+  background-color: #e67963 !important;
 }
 
 .bg-secondary {
@@ -388,7 +388,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #f3645b !important;
+  color: #e67963 !important;
 }
 
 .text-secondary {
@@ -396,13 +396,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #f3645b;
-  border-color: #f3645b;
+  background-color: #e67963;
+  border-color: #e67963;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #f3645b;
-  border-color: #f3645b;
+  background-color: #e67963;
+  border-color: #e67963;
 }
 
 .btn-secondary {
