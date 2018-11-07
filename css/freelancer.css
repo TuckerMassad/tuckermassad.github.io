@@ -79,7 +79,7 @@ hr.star-dark-sm {
 
 hr.star-dark:after {
   color: #b63b3b;
-  background-color: #f7ebd8;
+  background-color: #fff;
 }
 
 section {
@@ -227,11 +227,11 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
-  background-color: #f7ebd8;
+  background-color: #fff;
 }
 
 #contact {
-    background-color: #f7ebd8;
+    background-color: #fff;
 }
 
 .portfolio .portfolio-item {
