@@ -189,14 +189,24 @@
             <div class="col-lg-8 mx-auto">
 
                 <form action="https://formspree.io/xypdrgkm" method="POST">
-                <label>
-                    Your email:
-                    <input type="text" name="_replyto">
-                </label>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
+
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." name="_name">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+
+
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Email</label>
+                        <input class="form-control" id="name" type="text" placeholder="Email" required="required" data-validation-required-message="Please enter your email." name="_email">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+
 
                 <!-- your other form fields go here -->
 
