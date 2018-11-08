@@ -201,17 +201,34 @@
 
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                        <label>Email</label>
-                        <input class="form-control" id="name" type="text" placeholder="Email" required="required" data-validation-required-message="Please enter your email." name="_email">
+                        <label>Email Address</label>
+                        <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." name="_email">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
 
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Phone Number</label>
+                        <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." name="_phone_number">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message." name="_message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <br>
+
 
                 <!-- your other form fields go here -->
-
-                <button type="submit">Send</button>
-
+                <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                </div>
                 </form>
 
             </div>
