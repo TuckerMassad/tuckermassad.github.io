@@ -22,7 +22,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/styling.css" rel="stylesheet">
 
   </head>
 
@@ -181,14 +181,30 @@
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
-        <div class style="text-align:center">
-          <b>Personal Email</b>:  <a href="mailto:tuckermassad@gmail.com">tuckermassad@gmail.com</a><br><br>
-          <b>Cell:</b> (203) 980-9787
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+          <hr class="star-dark mb-5">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+              <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+              <form method="post" action="mail/contact_me.php">
+
+                  <label>Name</label>
+                  <input name="name" placeholder="Type Here">
+
+                  <label>Email</label>
+                  <input name="email" type="email" placeholder="Type Here">
+
+                  <label>Message</label>
+                  <textarea name="message" placeholder="Type Here"></textarea>
+
+                  <input id="submit" name="submit" type="submit" value="Submit">
+
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
@@ -255,7 +271,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/styling.min.js"></script>
 
   </body>
 
