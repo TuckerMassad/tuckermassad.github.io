@@ -1,2 +1,2 @@
 # tuckermassad.github.io
-Personal Portfolio Website. Hsted at tuckermassad.com
+Personal Portfolio Website. Hosted at tuckermassad.com
