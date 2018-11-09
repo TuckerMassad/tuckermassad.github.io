@@ -66,7 +66,7 @@ hr.blue-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #a92717;
+  background-color: #e45d49;
 }
 
 hr.star-dark {
@@ -78,7 +78,7 @@ hr.star-dark-sm {
 }
 
 hr.star-dark:after {
-  color: #a92717;
+  color: #e45d49;
   background-color: #fff;
 }
 
@@ -146,7 +146,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #a92717;
+  color: #e45d49;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -154,7 +154,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #a92717;
+  color: #e45d49;
 }
 
 #mainNav .navbar-toggler {
@@ -179,11 +179,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #a92717;
+    background: #e45d49;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #a92717;
+    background: #e45d49;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -354,7 +354,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #a92717;
+  color: #e45d49;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -373,11 +373,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #a92717;
+  color: #e45d49;
 }
 
 a:focus, a:hover, a:active {
-  color: #a92717;
+  color: #e45d49;
 }
 
 .btn {
@@ -385,7 +385,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #a92717 !important;
+  background-color: #e45d49 !important;
 }
 
 .bg-secondary {
@@ -393,7 +393,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #a92717 !important;
+  color: #e45d49 !important;
 }
 
 .text-secondary {
@@ -401,13 +401,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #a92717;
-  border-color: #a92717;
+  background-color: #e45d49;
+  border-color: #e45d49;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #a92717;
-  border-color: #a92717;
+  background-color: #e45d49;
+  border-color: #e45d49;
 }
 
 .btn-secondary {
