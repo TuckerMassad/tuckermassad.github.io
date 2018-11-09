@@ -22,6 +22,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-light-top,
 hr.star-dark {
   max-width: 15rem;
   padding: 0;
@@ -35,6 +36,7 @@ hr.star-dark {
 }
 
 hr.star-light:after,
+hr.star-light-top:after,
 hr.star-dark:after {
   position: relative;
   top: -.8em;
@@ -56,6 +58,10 @@ hr.star-light {
   border-color: #fff;
 }
 
+hr.star-light-top {
+  border-color: #fff;
+}
+
 hr.reg-light {
   border-color: #fff;
 }
@@ -69,6 +75,11 @@ hr.star-light:after {
   background-color: #e45d49;
 }
 
+hr.star-light-top:after {
+  color: #fff;
+  background-color: #f2767c;
+}
+
 hr.star-dark {
   border-color: #2c395c;
 }
@@ -79,7 +90,7 @@ hr.star-dark-sm {
 
 hr.star-dark:after {
   color: #e45d49;
-  background-color: #fff;
+  background-color: #fffef2;
 }
 
 section {
@@ -98,6 +109,10 @@ section h2 {
     line-height: 2.5rem;
   }
 }
+
+
+
+
 
 .btn-xl {
   padding: 1rem 1.75rem;
@@ -123,6 +138,10 @@ section h2 {
   height: 3.5rem;
   background-color: rgba(33, 37, 41, 0.5);
   line-height: 3.1rem;
+}
+
+a.anchor{
+    display: block; position: relative; top: -200px; visibility: hidden;
 }
 
 #mainNav {
@@ -226,11 +245,12 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
-  background-color: #fff;
+  background-color: #fffef2;
+
 }
 
 #contact {
-    background-color: #fff;
+    background-color: #fffef2;
 }
 
 .portfolio .portfolio-item {
@@ -384,7 +404,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #e45d49 !important;
+      background: linear-gradient(180deg, #e45d49 0%, #e45d49 21%, #f2767c 85%, #fff );
 }
 
 .bg-secondary {
