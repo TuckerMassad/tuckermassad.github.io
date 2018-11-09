@@ -407,6 +407,10 @@ a:focus, a:hover, a:active {
       background: linear-gradient(180deg, #e45d49 0%, #e45d49 21%, #f2767c 85%, #fff );
 }
 
+.bg-primary-menu {
+      background-color: #f2767c;
+}
+
 .bg-secondary {
   background-color: #2c395c !important;
 }
