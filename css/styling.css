@@ -404,7 +404,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-      background: linear-gradient(180deg, #e45d49 0%, #e45d49 21%, #f2767c 85%, #fff );
+      background: linear-gradient(180deg, #e45d49 0%, #e45d49 21%, #f2767c 85%, #fffef2 );
 }
 
 .bg-primary-menu {
