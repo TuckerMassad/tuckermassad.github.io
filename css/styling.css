@@ -444,37 +444,14 @@ a:focus, a:hover, a:active {
 }
 
 
-
-@-webkit-keyframes typing {
-    from { width: 0 }
-    to { width:14.7em }
+.typewriter {
+  border-right: .05em solid;
+  line-height: 30px;
+  animation: caret 1s steps(1) infinite;
 }
 
-@-moz-keyframes typing {
-    from { width: 0 }
-    to { width:14.7em }
-}
-
-@-webkit-keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
-
-@-moz-keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
-
-h1 {
-
-    display: inline-block;
-
-    white-space:nowrap;
-    overflow:hidden;
-    border-right: .1em solid black;
-
-    -webkit-animation: typing 3s steps(20), /* # of steps = # of characters */
-                        blink-caret 1s step-end infinite;
-    -moz-animation: typing 3s steps(20), /* # of steps = # of characters */
-                        blink-caret 1s step-end infinite;
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
