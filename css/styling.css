@@ -466,14 +466,15 @@ a:focus, a:hover, a:active {
 }
 
 h1 {
-    font-size:150%;
-    width:14.7em;
+
+    display: inline-block;
+
     white-space:nowrap;
     overflow:hidden;
     border-right: .1em solid black;
 
-    -webkit-animation: typing 3s steps(20, end), /* # of steps = # of characters */
+    -webkit-animation: typing 3s steps(20), /* # of steps = # of characters */
                         blink-caret 1s step-end infinite;
-    -moz-animation: typing 3s steps(20, end), /* # of steps = # of characters */
+    -moz-animation: typing 3s steps(20), /* # of steps = # of characters */
                         blink-caret 1s step-end infinite;
 }
