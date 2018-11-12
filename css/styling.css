@@ -447,12 +447,12 @@ a:focus, a:hover, a:active {
 
 @-webkit-keyframes typing {
     from { width: 0 }
-    to { width:14.8em }
+    to { width:14.7em }
 }
 
 @-moz-keyframes typing {
     from { width: 0 }
-    to { width:14.8em }
+    to { width:14.7em }
 }
 
 @-webkit-keyframes blink-caret {
@@ -467,7 +467,7 @@ a:focus, a:hover, a:active {
 
 h1 {
     font-size:150%;
-    width:14.8em;
+    width:14.7em;
     white-space:nowrap;
     overflow:hidden;
     border-right: .1em solid black;
