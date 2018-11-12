@@ -442,3 +442,38 @@ a:focus, a:hover, a:active {
   background-color: #181f33;
   border-color: #181f33;
 }
+
+
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:14.8em }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:14.8em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+h1 {
+    font-size:150%;
+    width:14.8em;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid black;
+
+    -webkit-animation: typing 3s steps(20, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 3s steps(20, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+}
