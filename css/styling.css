@@ -72,12 +72,12 @@ hr.blue-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #e45d49;
+  background-color: #FD6F46;
 }
 
 hr.star-light-top:after {
   color: #fff;
-  background-color: #f2767c;
+  background-color: #FB9832;
 }
 
 hr.star-dark {
@@ -173,7 +173,7 @@ a.anchor{
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #e45d49;
+  color: #FD6F46;
 }
 
 #mainNav .navbar-toggler {
@@ -404,11 +404,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-      background: linear-gradient(180deg, #e45d49 0%, #e45d49 21%, #f2767c 85%, #fffef2 );
+      background: linear-gradient(180deg, #FD6F46 10%, #FB9832 88%, #fffef2);
 }
 
 .bg-primary-menu {
-      background-color: #e45d49;
+      background-color: #FD6F46;
 }
 
 .bg-secondary {
@@ -429,8 +429,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #e45d49;
-  border-color: #e45d49;
+  background-color: #FD6F46;
+  border-color: #FD6F46;
 }
 
 .btn-secondary {
