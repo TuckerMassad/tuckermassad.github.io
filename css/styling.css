@@ -244,6 +244,11 @@ header.masthead h2 {
   }
 }
 
+.fa-python:hover,.fa-java:hover,.fa-js:hover,.fa-php:hover,.fa-html5:hover,.fa-css3:hover,.fa-node-js:hover,.fa-angular:hover,.fa-git-square:hover{
+  color: #FD6F46 !important;
+}
+
+
 .portfolio {
   margin-bottom: -15px;
   background-color: #fffef2;
@@ -406,6 +411,7 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
       background: linear-gradient(180deg, #FD6F46 10%, #FB9832 88%, #fffef2);
+
 }
 
 .bg-primary-menu {
