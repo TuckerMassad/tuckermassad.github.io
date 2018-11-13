@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
 
-  var dataText = [ "Hi, I'm Tucker Massad", "Have any questions? Send a message or email me!"];
+  var dataText = [ "Hi, I'm Tucker.", "Have any questions? Send a message or email me!"];
 
 
 
