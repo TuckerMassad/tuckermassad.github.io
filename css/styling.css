@@ -446,7 +446,7 @@ a:focus, a:hover, a:active {
 
 .typewriter {
   border-right: .05em solid;
-  line-height: 30px;
+
   animation: caret 1s steps(1) infinite;
 }
 

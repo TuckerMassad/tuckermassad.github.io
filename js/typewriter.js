@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
     else if (typeof fnCallback == 'function') {
 
-      setTimeout(fnCallback, 5000);
+      setTimeout(fnCallback, 10000);
     }
   }
 
