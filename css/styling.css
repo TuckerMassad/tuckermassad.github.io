@@ -386,10 +386,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
-svg {
-    vertical-align:top;
-}
-
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -397,6 +393,11 @@ svg {
   color: #fff;
 }
 
+.propic{
+  width: 45%;
+  max-height: 100%;
+  margin-top: -100px;
+}
 
 
 .copyright {
