@@ -395,7 +395,6 @@ form .row:first-child .floating-label-form-group {
 
 .propic{
   width: 45%;
-  min-height: 500px;
   margin-top: -80px;
 }
 
@@ -448,7 +447,7 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-      background-color: #2c395c;
+  background-color: #2c395c;
   border-color: #2c395c;
 }
 
