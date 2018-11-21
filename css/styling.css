@@ -77,7 +77,7 @@ hr.star-light:after {
 
 hr.star-light-top:after {
   color: #fff;
-  background-color: #FB9832;
+  background-color: #ff7851;
 }
 
 hr.star-dark {
@@ -416,7 +416,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-      background: linear-gradient(180deg, #FD6F46 10%, #FB9832 88%, #fffef2);
+      background: linear-gradient(180deg, #FD6F46 10%, #ff7851 88%, #fffef2);
 
 }
 
