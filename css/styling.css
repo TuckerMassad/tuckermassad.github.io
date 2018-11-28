@@ -246,6 +246,8 @@ header.masthead h2 {
 
 .fa-python:hover,.fa-java:hover,.fa-js:hover,.fa-php:hover,.fa-html5:hover,.fa-css3:hover,.fa-node-js:hover,.fa-angular:hover,.fa-git-square:hover{
   color: #FD6F46 !important;
+  font-size:3.8em;
+  transition: .3s ease-out;
 }
 
 
@@ -456,8 +458,73 @@ a:focus, a:hover, a:active {
   border-color: #181f33;
 }
 
-
 .typewriter {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
+}
+
+/* FontAwesome Hover Icons */
+
+
+
+
+/* -- Animated hr -- */
+
+.progress-blue {
+  background: rgba(1, 15, 30, 0.1);
+  height: 1px;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(left , white 2%, #2c395c 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #2c395c 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #2c395c 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #2c395c 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #2c395c 50%, white 98%);
+}
+
+.progress-white {
+  background: rgba(1, 15, 30, 0.1);
+  height: 1px;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(left , #ff7851 2%, white 50%, #ff7851 98%);
+  background-image: -o-linear-gradient(left , #ff7851 2%, white 50%, #ff7851 98%);
+  background-image: -moz-linear-gradient(left , #ff7851 2%, white 50%, #ff7851 98%);
+  background-image: -webkit-linear-gradient(left , #ff7851 2%, white 50%, #ff7851 98%);
+  background-image: -ms-linear-gradient(left , #ff7851 2%, white 50%, #ff7851 98%);
+}
+
+.progress-white::before {
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: white;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 80px;
+}
+
+.progress-blue::before {
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #2c395c;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 80px;
+}
+
+@keyframes progress {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(1440px);
+  }
 }
