@@ -246,7 +246,7 @@ header.masthead h2 {
 
 .fa-python:hover,.fa-java:hover,.fa-js:hover,.fa-php:hover,.fa-html5:hover,.fa-css3:hover,.fa-node-js:hover,.fa-angular:hover,.fa-git-square:hover{
   color: #FD6F46 !important;
-  font-size:3.8em;
+  font-size:3.6em;
   transition: .3s ease-out;
 }
 
@@ -463,8 +463,17 @@ a:focus, a:hover, a:active {
   animation: caret 1s steps(1) infinite;
 }
 
+.td,.th{
+    color: #2c395c;
+}
+
+
 /* FontAwesome Hover Icons */
 
+.nohover:hover{
+  color: white !important;
+  font-size:1em;
+}
 
 
 
