@@ -294,7 +294,7 @@ header.masthead h2 {
 }
 
 @media (max-width: @screen-xs) {
-    body{font-size: 12px;}
+    body{font-size: 10px;}
 }
 
 .projects{
