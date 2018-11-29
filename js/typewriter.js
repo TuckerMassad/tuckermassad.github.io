@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
 
-  var dataText = [ "Hi, I'm Tucker.", "Have any questions? Send a message or email me!"];
+  var dataText = [ "Hi, I'm Tucker.", "Questions? Lets chat!"];
 
 
 
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
     else if (typeof fnCallback == 'function') {
 
-      setTimeout(fnCallback, 10000);
+      setTimeout(fnCallback, 12000);
     }
   }
 
