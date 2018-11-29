@@ -470,7 +470,7 @@ a:focus, a:hover, a:active {
 /* Half BR */
 
 .half-line {
-  line-height: .1em;
+  line-height: .2em;
 }
 
 /* Curly Brace HR */
@@ -600,6 +600,11 @@ ul{
 	padding-right: 5.3333333%;
 }
 
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
 
 /* Styling an indeterminate progress bar */
 
@@ -652,8 +657,6 @@ progress[value]::-webkit-progress-value {
 	/* Let's animate this */
 	animation: animate-stripes 5s linear infinite;
 }
-
-@keyframes animate-stripes { 100% { background-position: -100px 0; } }
 
 /* Let's spice up things little bit by using pseudo elements. */
 
