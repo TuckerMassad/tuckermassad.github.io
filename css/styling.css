@@ -244,16 +244,10 @@ header.masthead h2 {
   }
 }
 
-.fa-python:hover,.fa-java:hover,.fa-js:hover,.fa-php:hover,.fa-html5:hover,.fa-css3:hover,.fa-node-js:hover,.fa-angular:hover,.fa-git-square:hover{
-  color: #FD6F46 !important;
-  font-size:3.6em;
-  transition: .3s ease-out;
-}
-
-
 .portfolio {
   margin-bottom: -15px;
   background-color: #fffef2;
+  overflow: hidden;
 
 }
 
@@ -280,7 +274,7 @@ header.masthead h2 {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
