@@ -467,6 +467,12 @@ a:focus, a:hover, a:active {
     color: #2c395c;
 }
 
+/* Half BR */
+
+.half-line {
+  line-height: .1em;
+}
+
 /* Curly Brace HR */
 
 .brace{
