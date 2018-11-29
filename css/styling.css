@@ -247,7 +247,7 @@ header.masthead h2 {
 .portfolio {
   margin-bottom: -15px;
   background-color: #fffef2;
-  
+  overflow: hidden;
 }
 
 #contact {
