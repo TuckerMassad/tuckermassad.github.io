@@ -293,6 +293,10 @@ header.masthead h2 {
 
 }
 
+@media (max-width: @screen-xs) {
+    body{font-size: 12px;}
+}
+
 .projects{
     margin-left: 2em;
     text-align:center;
