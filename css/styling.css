@@ -467,6 +467,14 @@ a:focus, a:hover, a:active {
     color: #2c395c;
 }
 
+/* Smaller Screen Text */
+
+@media (max-width:800px) {
+  p {
+    font-size: 12px;
+  }
+}
+
 /* Project Buttons */
 
 .projbutton{
