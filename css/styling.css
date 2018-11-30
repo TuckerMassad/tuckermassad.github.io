@@ -470,9 +470,15 @@ a:focus, a:hover, a:active {
 /* Project Buttons */
 
 .projbutton{
-    color: #2c395c;
+    color: #fffef2;
     text-shadow: 1px 1px 1px #181f33;
-    font-size: 2.5em;
+    font-size: 1.3em;
+    margin-left: -0.3em;
+
+}
+
+.projbutton:hover {
+  transform: scale(1.4);
 }
 
 /* Half BR */
@@ -529,6 +535,7 @@ a:focus, a:hover, a:active {
 .nohover:hover{
   color: white !important;
   font-size:1em;
+  transform: scale(1.2);
 }
 
 
