@@ -250,10 +250,10 @@ header.masthead h2 {
   transition: .3s ease-out;
 }
 
-
 .portfolio {
   margin-bottom: -15px;
   background-color: #fffef2;
+  display: flex;
 
 }
 
@@ -1155,4 +1155,59 @@ p[data-value]:after {
   transition-timing-function: linear;
   transition-delay: 0.45s;
   opacity: 1;
+}
+
+/* Button Effects */
+
+.button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c395c;
+  box-shadow: 0px 0px 0 0px rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  width: 20.25rem;
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: white;
+  cursor: pointer;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+.button .icons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem 0 0;
+  width: 20.25px;
+  height: 20.6px;
+}
+.button .icons i {
+  position: absolute;
+  display: block;
+}
+.button .icons .icon-default {
+  transition: opacity 0.3s, transform 0.3s;
+}
+.button .icons .icon-hover {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: rotate(-180deg) scale(0.5);
+  opacity: 0;
+}
+.button:hover {
+  transform: scale(1.2);
+  box-shadow: 20px 15px rgba(0, 0, 0, 0.15);
+}
+.button:hover .icon-hover {
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+}
+.button:hover .icon-default {
+  transform: rotate(180deg) scale(0.5);
+  opacity: 0;
 }
