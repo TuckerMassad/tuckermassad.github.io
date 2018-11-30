@@ -1175,7 +1175,7 @@ p[data-value]:after {
   cursor: pointer;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin-top: 15px;
+
   margin-bottom: -20px;
 }
 .button .icons {
