@@ -489,13 +489,13 @@ a:focus, a:hover, a:active {
 .projbutton{
     color: #fffef2;
     text-shadow: 1px 1px 1px #181f33;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-left: -0.3em;
 
 }
 
 .projbutton:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 /* Half BR */
