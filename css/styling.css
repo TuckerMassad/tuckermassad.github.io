@@ -1167,7 +1167,7 @@ p[data-value]:after {
   background: #2c395c;
   box-shadow: 0px 0px 0 0px rgba(0, 0, 0, 0);
   border-radius: 50px;
-  width: 20.25rem;
+  width: 19.25rem;
   padding: 1rem 0;
   font-weight: 600;
   font-size: 1.1em;
@@ -1184,8 +1184,8 @@ p[data-value]:after {
   justify-content: center;
   align-items: center;
   margin: 0 1rem 0 0;
-  width: 20.25px;
-  height: 20.6px;
+  width: 8%;
+  height: 8%;
 }
 .button .icons i {
   position: absolute;
