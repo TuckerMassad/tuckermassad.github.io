@@ -467,6 +467,14 @@ a:focus, a:hover, a:active {
     color: #2c395c;
 }
 
+/* Project Buttons */
+
+.projbutton{
+    color: #2c395c;
+    text-shadow: 1px 1px 1px #181f33;
+    font-size: 2.5em;
+}
+
 /* Half BR */
 
 .half-line {
