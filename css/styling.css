@@ -977,7 +977,7 @@ p[data-value]:after {
     background-position: 0 0, 42px 0;
   }
 }
-.progress-bar__bar-inner--2 {
+.progress-bar__bar-inner--2 { /* COLOR OF ANIMATED BAR */
   background-image: linear-gradient(to top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .2)), linear-gradient(135deg, #5eeb5b, #5eeb5b 33%, #358600 33%, #358600 66%, #5eeb5b 66%);
   background-size: 100% 100%, 42px 100%;
   background-position: 0 0, 0 0;
