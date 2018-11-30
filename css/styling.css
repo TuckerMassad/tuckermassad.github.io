@@ -471,7 +471,7 @@ a:focus, a:hover, a:active {
 
 @media (max-width:800px) {
   p {
-    font-size: 13px;
+    font-size: 12.5x;
   }
 
   th,td{
