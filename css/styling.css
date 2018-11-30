@@ -477,7 +477,12 @@ a:focus, a:hover, a:active {
   th,td{
     font-size: 11.5px;
   }
+  .qualifications{
+      margin-right: 1.5em;
+  }
 }
+
+
 
 /* Project Buttons */
 
