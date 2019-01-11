@@ -24,6 +24,11 @@
     <!-- Custom styles for this template -->
     <link href="css/styling.css" rel="stylesheet">
 
+    <!-- Leaflet Stylesheets & JS -->
+    <link rel="stylesheet" href="./leaflet/leaflet.css" />
+    <script src="./leaflet/leaflet.js"></script>
+    <script src="./js/leaflet-providers.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -343,8 +348,10 @@
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Current Location</h4>
-            <p class="lead mb-0">
-              Glastonbury, CT 06033</p>
+
+              <!-- Map -->
+              <div id="mapid"></div>
+
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Find me on the Web</h4>
@@ -413,6 +420,10 @@
     <script src="js/freelancer.min.js"></script>
     <script src="js/typewriter.js"></script>
     <script src="js/progress.js"></script>
+
+    <!-- Map Scripts -->
+    <script src="./js/L.Control.Locate.js" charset="utf-8"></script>
+    <script src="./js/generatemap.js"></script>
 
   </body>
 

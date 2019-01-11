@@ -393,6 +393,7 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 5rem;
   background-color: #2c395c;
   color: #fff;
+  margin-bottom: -10px;
 }
 
 .propic{
@@ -467,6 +468,34 @@ a:focus, a:hover, a:active {
     color: #2c395c;
 }
 
+/* Progress Bar Text Screen Size */
+
+
+.short-text { display: none; }
+
+
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+
+/* Map */
+
+#mapid{
+  display: inline-block;
+    width: 300px;
+    height: 130px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 500;
+
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+
 /* Project Buttons */
 
 .projbutton{
@@ -478,7 +507,7 @@ a:focus, a:hover, a:active {
 }
 
 .projbutton:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 /* Half BR */
