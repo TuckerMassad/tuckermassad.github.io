@@ -110,9 +110,16 @@ section h2 {
   }
 }
 
+/* Text size on smaller screens */
+@media (max-width: 900px) {
+  body{
+    font-size: 12.5px;
+  }
+  p.lead{
+    font-size: 18px;
+  }
 
-
-
+}
 
 .btn-xl {
   padding: 1rem 1.75rem;
