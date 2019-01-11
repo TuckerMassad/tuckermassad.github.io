@@ -468,7 +468,6 @@ a:focus, a:hover, a:active {
     color: #2c395c;
 }
 
-<<<<<<< HEAD
 /* Progress Bar Text Screen Size */
 
 
@@ -495,23 +494,6 @@ a:focus, a:hover, a:active {
 .leaflet-popup-tip-container {
   display: none;
 }
-=======
-/* Smaller Screen Text */
-
-@media (max-width:800px) {
-  p {
-    font-size: 12px;
-  }
-
-  th,td{
-    font-size: 12px;
-  }
-  .qualifications{
-    margin-right: 1.6em;
-  }
-}
-
->>>>>>> 37eef7b3198cf2a33ca25b7d3e53301871ef2b53
 
 
 /* Project Buttons */
@@ -519,7 +501,7 @@ a:focus, a:hover, a:active {
 .projbutton{
     color: #fffef2;
     text-shadow: 1px 1px 1px #181f33;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-left: -0.3em;
 
 }
@@ -1222,7 +1204,6 @@ p[data-value]:after {
 /* Button Effects */
 
 .button {
-  margin-top: 30px;
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -1230,7 +1211,7 @@ p[data-value]:after {
   background: #2c395c;
   box-shadow: 0px 0px 0 0px rgba(0, 0, 0, 0);
   border-radius: 50px;
-  width: 16.35em;
+  width: 19.25rem;
   padding: 1rem 0;
   font-weight: 600;
   font-size: 1.1em;
