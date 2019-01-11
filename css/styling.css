@@ -110,8 +110,21 @@ section h2 {
   }
 }
 
+.sociallist{
+  margin-top: 36px;
+  vertical-align: middle;
+}
+
+.buttontext{
+  font-size: 18px;
+}
+
 /* Text size on smaller screens */
 @media (max-width: 900px) {
+  .buttontext{
+    font-size:14px;
+    font-weight: bold;
+  }
   table.th{
     font-size: 14px;
   }
@@ -495,13 +508,12 @@ a:focus, a:hover, a:active {
 /* Map */
 
 #mapid{
-  display: inline-block;
+    display: inline-block;
     width: 300px;
     height: 130px;
     border-radius: 30px;
     position: relative;
     z-index: 500;
-
 }
 
 .leaflet-popup-tip-container {
@@ -520,7 +532,7 @@ a:focus, a:hover, a:active {
 }
 
 .projbutton:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* Half BR */
@@ -1217,6 +1229,7 @@ p[data-value]:after {
 /* Button Effects */
 
 .button {
+  margin-top: 15px;
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -1224,7 +1237,7 @@ p[data-value]:after {
   background: #2c395c;
   box-shadow: 0px 0px 0 0px rgba(0, 0, 0, 0);
   border-radius: 50px;
-  width: 19.25rem;
+  width: 18rem;
   padding: 1rem 0;
   font-weight: 600;
   font-size: 1.1em;
@@ -1268,3 +1281,7 @@ p[data-value]:after {
   transform: rotate(180deg) scale(0.5);
   opacity: 0;
 }
+
+
+/* Submit button */
+
