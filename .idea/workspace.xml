@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df2ff2a-7912-4d47-bb0f-05f0e720dc63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styling.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            <state relative-caret-position="648">
+              <caret line="290" column="16" lean-forward="true" selection-start-line="290" selection-start-column="16" selection-end-line="290" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,8 +104,8 @@
         <option value="$PROJECT_DIR$/leaflet/leaflet.css" />
         <option value="$PROJECT_DIR$/js/generatemap.js" />
         <option value="$PROJECT_DIR$/js/submit.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styling.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -185,12 +184,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547222936618</updated>
-      <workItem from="1547222937860" duration="10421000" />
+      <workItem from="1547222937860" duration="10700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10421000" />
+    <option name="totallyTimeSpent" value="10700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="100" width="1615" height="959" extended-state="0" />
@@ -330,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="648">
+          <caret line="290" column="16" lean-forward="true" selection-start-line="290" selection-start-column="16" selection-end-line="290" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
