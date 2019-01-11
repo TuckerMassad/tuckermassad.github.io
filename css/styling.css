@@ -112,11 +112,17 @@ section h2 {
 
 /* Text size on smaller screens */
 @media (max-width: 900px) {
+  table.th{
+    font-size: 14px;
+  }
   body{
     font-size: 12px;
   }
   p.lead{
     font-size: 18px;
+  }
+  p.projecttext{
+    font-size: 14px;
   }
 
 }
