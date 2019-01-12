@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([41.767446, -72.677517], 7);
+var mymap = L.map('mapid').setView([41.767446, -72.677517], 6);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     maxZoom: 18,
@@ -15,5 +15,4 @@ mymap.doubleClickZoom.disable();
 mymap.scrollWheelZoom.disable();
 mymap.boxZoom.disable();
 mymap.keyboard.disable();
-$(".leaflet-control-zoom").css("visibility", "hidden")
 $('.leaflet-control-attribution').hide()
