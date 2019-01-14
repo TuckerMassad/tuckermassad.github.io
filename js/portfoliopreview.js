@@ -11,7 +11,7 @@ var app = new Vue({
       },
       { name: "Outfit Helper",
         description: "Daily weather reminder sent via SMS as well as a suggestion of clothes given the current weather conditions.  ",
-        imagefile:"./img/outfithelper2.jpg",
+        imagefile:"./img/outfithelper3.jpg",
         icon: "fab fa-python fa-1x nohover",
         github: "fab fa-github fa-1x",
         link: "https://github.com/TuckerMassad/OutfitHelper"
