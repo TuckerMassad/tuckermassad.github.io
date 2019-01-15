@@ -14,7 +14,7 @@ var app = new Vue({
         imagefile:"./img/tgsscreenshot.jpg",
         icon: "fab fa-html5 fa-1x nohover",
         github: "fab fa-codepen fa-1x",
-        link: "https://codepen.io/tuckermassad/pen/NeJvjP"
+        link: "https://codepen.io/tuckermassad/full/NeJvjP"
       },
       { name: "Set Game",
         description: "Real-time card game of Set implemented in Java.  ",
