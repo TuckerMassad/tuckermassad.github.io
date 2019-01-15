@@ -9,10 +9,10 @@ var app = new Vue({
         github: "fab fa-github fa-1x",
         link: "https://github.com/TuckerMassad/MersenneTwister"
       },
-      { name: "The Garnet Society : One-Page Website",
+      { name: "TGS : One-Page Website Design",
         description: "An elegant one-page website built using jquery & bootstrap for Union College's (my alma mater) student alumni association, The Garnet Society",
         imagefile:"./img/tgsscreenshot.jpg",
-        icon: "fab fa-jQuery fa-1x nohover",
+        icon: "fab fa-html5 fa-1x nohover",
         github: "fab fa-codepen fa-1x",
         link: "https://codepen.io/tuckermassad/pen/NeJvjP"
       },
