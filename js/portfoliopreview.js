@@ -11,7 +11,7 @@ var app = new Vue({
       },
       { name: "TGS : One-Page Website Design",
         description: "An elegant one-page website built using jquery & bootstrap for Union College's (my alma mater) student alumni association, The Garnet Society",
-        imagefile:"./img/tgsscreenshot.jpg",
+        imagefile:"./img/tgs.png",
         icon: "fab fa-html5 fa-1x nohover",
         github: "fab fa-codepen fa-1x",
         link: "https://codepen.io/tuckermassad/full/NeJvjP"
