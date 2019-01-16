@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df2ff2a-7912-4d47-bb0f-05f0e720dc63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="1419" column="10" selection-start-line="1419" selection-start-column="10" selection-end-line="1419" selection-end-column="10" />
+            <state relative-caret-position="427">
+              <caret line="1463" column="3" lean-forward="true" selection-start-line="1463" selection-start-column="3" selection-end-line="1463" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -81,6 +79,7 @@
       <find>outfit</find>
       <find>bg</find>
       <find>starhrtop</find>
+      <find>@media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547222936618</updated>
       <workItem from="1547222937860" duration="11541000" />
-      <workItem from="1547665249486" duration="1274000" />
+      <workItem from="1547665249486" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12815000" />
+    <option name="totallyTimeSpent" value="13078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="90" width="1615" height="959" extended-state="0" />
@@ -331,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1419" column="10" selection-start-line="1419" selection-start-column="10" selection-end-line="1419" selection-end-column="10" />
+        <state relative-caret-position="427">
+          <caret line="1463" column="3" lean-forward="true" selection-start-line="1463" selection-start-column="3" selection-end-line="1463" selection-end-column="3" />
         </state>
       </provider>
     </entry>

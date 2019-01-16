@@ -1379,6 +1379,7 @@ a img {
 
 
 
+
 /* Star HR */
 
 .starhr {
@@ -1449,6 +1450,24 @@ a img {
   left: 50%;
   background-color: #fffef2;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 992px) {
+  .starhr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .starhrtop{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
+  .starhrtopdark{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
+
 }
 
 /* <hr class="starhrtopdark" width="30%"> */
