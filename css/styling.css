@@ -277,7 +277,7 @@ header.masthead h2 {
 }
 
 .fa-python:hover,.fa-java:hover,.fa-js:hover,.fa-php:hover,.fa-html5:hover,.fa-css3:hover,.fa-node-js:hover,.fa-angular:hover,.fa-git-square:hover{
-  color: #FD6F46 !important;
+  color: #F7A45A !important;
   font-size:3.6em;
   transition: .3s ease-out;
 }
@@ -456,7 +456,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary-menu {
-  background-color: #FD6F46;
+  background-color: #F7A45A;
 }
 
 .bg-secondary {
@@ -816,7 +816,7 @@ p[data-value]:after {
           -webkit-linear-gradient( top,
           rgba(255, 255, 255, .25),
           rgba(0,0,0,.2)),
-          -webkit-linear-gradient( left, #2c395c, #FD6F46); /* HERE!!! */
+          -webkit-linear-gradient( left, #2c395c, #F7A45A); /* HERE!!! */
 }
 
 .css3::-webkit-progress-value,

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df2ff2a-7912-4d47-bb0f-05f0e720dc63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="480" column="23" selection-start-line="480" selection-start-column="23" selection-end-line="480" selection-end-column="23" />
+            <state relative-caret-position="257">
+              <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="42" column="89" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -57,9 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text</find>
-      <find>typewrit</find>
-      <find>border: 6px solid transparent;</find>
       <find>center</find>
       <find>map</find>
       <find>.a</find>
@@ -84,6 +79,12 @@
       <find>@media</find>
       <find>infos</find>
       <find>btn</find>
+      <find>angular</find>
+      <find>navba</find>
+      <find>navbar-tog</find>
+      <find>navbar-togg</find>
+      <find>menu</find>
+      <find>fd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,8 +97,8 @@
         <option value="$PROJECT_DIR$/js/generatemap.js" />
         <option value="$PROJECT_DIR$/js/submit.js" />
         <option value="$PROJECT_DIR$/js/portfoliopreview.js" />
-        <option value="$PROJECT_DIR$/css/styling.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styling.css" />
       </list>
     </option>
   </component>
@@ -188,12 +189,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547222936618</updated>
       <workItem from="1547222937860" duration="11541000" />
-      <workItem from="1547665249486" duration="1895000" />
+      <workItem from="1547665249486" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13436000" />
+    <option name="totallyTimeSpent" value="13699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="90" width="1615" height="959" extended-state="0" />
@@ -325,17 +326,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styling.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="480" column="23" selection-start-line="480" selection-start-column="23" selection-end-line="480" selection-end-column="23" />
+        <state relative-caret-position="207">
+          <caret line="42" column="89" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+        <state relative-caret-position="257">
+          <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
         </state>
       </provider>
     </entry>
