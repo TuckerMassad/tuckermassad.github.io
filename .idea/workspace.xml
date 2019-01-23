@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df2ff2a-7912-4d47-bb0f-05f0e720dc63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/tgs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/outfithelper2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/portfoliopreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/portfoliopreview.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="1443" column="15" selection-start-line="1443" selection-start-column="15" selection-end-line="1443" selection-end-column="15" />
+            <state relative-caret-position="261">
+              <caret line="1430" column="30" lean-forward="true" selection-start-line="1430" selection-start-column="30" selection-end-line="1430" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -29,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="222">
+              <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,7 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>headline</find>
       <find>hover</find>
       <find>projbutt</find>
       <find>button</find>
@@ -98,12 +99,10 @@
       <find>star-light-top</find>
       <find>mast</find>
       <find>portfol</find>
-      <find>star</find>
       <find>starhr</find>
       <find>contact</find>
       <find>work his</find>
       <find>infosys</find>
-      <find>bg</find>
       <find>btn</find>
       <find>nav</find>
       <find>navbar</find>
@@ -113,6 +112,9 @@
       <find>e45d49</find>
       <find>send</find>
       <find>2c395c</find>
+      <find>bg</find>
+      <find>&lt;hr class=&quot;starhr&quot; width=&quot;30%&quot;&gt;</find>
+      <find>star</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547222936618</updated>
-      <workItem from="1547222937860" duration="20034000" />
+      <workItem from="1547222937860" duration="20266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20034000" />
+    <option name="totallyTimeSpent" value="20266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="108" width="1615" height="959" extended-state="0" />
@@ -380,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="222">
+          <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -409,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="1443" column="15" selection-start-line="1443" selection-start-column="15" selection-end-line="1443" selection-end-column="15" />
+        <state relative-caret-position="261">
+          <caret line="1430" column="30" lean-forward="true" selection-start-line="1430" selection-start-column="30" selection-end-line="1430" selection-end-column="30" />
         </state>
       </provider>
     </entry>
