@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df2ff2a-7912-4d47-bb0f-05f0e720dc63" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/img/tgs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/css/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styling.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/outfithelper2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/portfoliopreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/portfoliopreview.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,17 +27,75 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/styling.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="1430" column="30" lean-forward="true" selection-start-line="1430" selection-start-column="30" selection-end-line="1430" selection-end-column="30" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styling.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="397" column="35" selection-start-line="397" selection-start-column="33" selection-end-line="397" selection-end-column="35" />
+<<<<<<< HEAD
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor" />
+=======
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5050#5056#1" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6509#6515#1" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#17318#17324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#76#83#1" expanded="true" />
+                <element signature="e#76#83#1" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -35,15 +105,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/typewriter.js">
+        <entry file="file://$PROJECT_DIR$/js/portfoliopreview.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="300">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+=======
             <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
             </state>
           </provider>
         </entry>
@@ -52,10 +128,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <find>hover</find>
+      <find>projbutt</find>
+      <find>button</find>
+      <find>socialli</find>
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
       <find>projbut</find>
       <find>buttontex</find>
-      <find>recent pro</find>
+      <find>form-group</find>
       <find>mapid</find>
+<<<<<<< HEAD
+      <find>recent pro</find>
+      <find>hr.star</find>
+      <find>hr</find>
+      <find>star-light-top</find>
+      <find>mast</find>
+      <find>portfol</find>
+      <find>starhr</find>
+      <find>contact</find>
+      <find>work his</find>
+      <find>infosys</find>
+      <find>btn</find>
+      <find>nav</find>
+      <find>navbar</find>
+      <find>masthead</find>
+      <find>head</find>
+      <find>pag</find>
+      <find>e45d49</find>
+      <find>send</find>
+      <find>2c395c</find>
+      <find>bg</find>
+      <find>&lt;hr class=&quot;starhr&quot; width=&quot;30%&quot;&gt;</find>
+      <find>star</find>
+=======
       <find>&lt;hr class=&quot;starhrtopdark&quot; width=&quot;30%&quot;&gt;</find>
       <find>star</find>
       <find>2c395c</find>
@@ -82,6 +192,10 @@
       <find>sendme</find>
       <find>sendMessageButton</find>
       <find>contact</find>
+<<<<<<< HEAD
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,8 +208,18 @@
         <option value="$PROJECT_DIR$/js/generatemap.js" />
         <option value="$PROJECT_DIR$/js/submit.js" />
         <option value="$PROJECT_DIR$/js/portfoliopreview.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/styling.css" />
         <option value="$PROJECT_DIR$/index.html" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styling.css" />
+=======
+        <option value="$PROJECT_DIR$/css/styling.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
       </list>
     </option>
   </component>
@@ -121,21 +245,30 @@
               <item name="tuckermassad.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tuckermassad.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
             </path>
             <path>
               <item name="tuckermassad.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tuckermassad.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
             </path>
             <path>
               <item name="tuckermassad.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tuckermassad.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="tuckermassad.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tuckermassad.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="leaflet" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
             </path>
           </expand>
           <select />
@@ -190,15 +323,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547222936618</updated>
+<<<<<<< HEAD
+      <workItem from="1547222937860" duration="20266000" />
+=======
       <workItem from="1547222937860" duration="11541000" />
       <workItem from="1547665249486" duration="2791000" />
       <workItem from="1547675372826" duration="2285000" />
       <workItem from="1548274026012" duration="1160000" />
+<<<<<<< HEAD
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="17777000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="20266000" />
+=======
+    <option name="totallyTimeSpent" value="17777000" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="80" width="1615" height="932" extended-state="0" />
@@ -209,7 +357,11 @@
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.12918109" />
+=======
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.21453287" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -245,7 +397,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/js/submit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/js/submit.js" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
     <entry file="file://$PROJECT_DIR$/leaflet/leaflet-src.esm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -310,9 +472,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/generatemap.js">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/js/progress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/js/freelancer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/typewriter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1360">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/portfoliopreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#76#83#1" expanded="true" />
+            <element signature="e#76#83#1" expanded="true" />
+          </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
         </state>
       </provider>
     </entry>
@@ -323,6 +539,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -335,6 +552,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/typewriter.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="222">
+          <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="50" />
+=======
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
@@ -344,6 +568,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="96" lean-forward="true" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+<<<<<<< HEAD
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
           <folding>
             <element signature="e#76#83#1" expanded="true" />
             <element signature="e#76#83#1" expanded="true" />
@@ -351,6 +579,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/css/styling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1430" column="30" lean-forward="true" selection-start-line="1430" selection-start-column="30" selection-end-line="1430" selection-end-column="30" />
+=======
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-959">
@@ -362,6 +599,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="397" column="35" selection-start-line="397" selection-start-column="33" selection-end-line="397" selection-end-column="35" />
+<<<<<<< HEAD
+=======
+>>>>>>> 1d68854810f42ca92504eed8c7e191738f3fba7d
+>>>>>>> 628106f704fb47d03d64c57ee9bc203a05f8f6c2
         </state>
       </provider>
     </entry>
