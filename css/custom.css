@@ -838,7 +838,8 @@ blockquote footer {
 .grid figure {
 	margin: 0;
 	position: relative;
-	border-radius: 0.5em / 50%;
+	border-radius: 3em / 20%;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 	margin-right: 20px;
 
 
@@ -855,8 +856,9 @@ blockquote footer {
 	display: block;
 	position: relative;
 	height: 230px;
-	width: 400px;
-	border-radius: 0.5em / 50%;
+	width: 370px;
+	border-radius: 3em / 20%;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 
 }
 
@@ -867,7 +869,8 @@ blockquote footer {
 	padding: 2.5rem;
 	background: #222629;
 	color: #ed4e6e;
-	border-radius: 0.8em / 50%;
+	border-radius: 3em / 20%;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 
 
 
@@ -886,7 +889,8 @@ blockquote footer {
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 10px;
-	border-radius: 2px;
+	border-radius: 3em / 20%;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 	display: inline-block;
 	background: #ed4e6e;
 	color: #fff;
@@ -2619,7 +2623,7 @@ p[data-value]:after {
 	height: auto;
 	min-height: 200px;
 	background-color: white;
-	border-radius: 1em / 50%;
+	border-radius: 3em / 20%;
 	box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 	margin: 2em 0;
 }
