@@ -450,6 +450,16 @@ only screen and (min-device-pixel-ratio: 1.5){
 .navbar-collapse.in {
 	overflow-y: hidden;
 }
+
+
+@media(max-width: 480px) {
+
+	.navbar-header a {
+		margin-left: 4.2rem;
+
+	}
+}
+
 /*------------------------------
 	HEADER
 ------------------------------*/
@@ -1547,6 +1557,7 @@ blockquote footer {
 		margin-top:-2px;
 		position:center;
 		margin-left:-18px;
+
 	}
 
 
