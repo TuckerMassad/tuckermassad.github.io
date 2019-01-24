@@ -1777,15 +1777,15 @@ blockquote footer {
 
 @media (max-width:480px) {
 	.timeline {
-		margin:25px 0 0 210px;
+		margin:25px 0 0 185px;
 	}
 
 	.event .event-info {
-		width:200px;
+		width:175px;
 	}
 
 	.event .event-info .date {
-		margin-left:125px;
+		margin-left:100px;
 	}
 
 	.blog-post {
