@@ -837,7 +837,8 @@ blockquote footer {
 	margin: 0;
 	position: relative;
 	border-radius: 0.5em / 50%;
-	margin-right: 12px;
+	margin-right: 22px;
+
 
 }
 
@@ -2659,5 +2660,10 @@ blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
 	text-decoration: underline;
 }
+
+
+/* Vertical Scroll */
+
+
 
 
