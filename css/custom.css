@@ -2661,6 +2661,18 @@ blockquote.twitter-tweet a:focus {
 	text-decoration: underline;
 }
 
+.tinytext {
+
+	font-size: 11px;
+
+}
+
+.refcaption {
+
+	text-align: center;
+	margin-right: 22px;
+}
+
 
 /* Vertical Scroll */
 
