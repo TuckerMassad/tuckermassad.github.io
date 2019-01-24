@@ -842,6 +842,12 @@ blockquote footer {
 
 }
 
+@media(max-width: 900px){
+	.grid figure {
+		margin-right:30px;
+	}
+}
+
 .grid figure img {
 	max-width: 100%;
 	display: block;
