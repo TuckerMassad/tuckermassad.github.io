@@ -418,7 +418,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 .navbar-default .navbar-nav > li > a {
 	color:#FFFFFF;
 	font-family:'Alegreya Sans SC';
-	margin-top:6px;
+	margin-top:1px;
 	font-size:18px;
 	border-left:4px solid transparent;
 	transition-duration:0.7s;
@@ -451,14 +451,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 	overflow-y: hidden;
 }
 
-
-@media(max-width: 480px) {
-
-	.navbar-header a {
-		margin-left: 4.2rem;
-
-	}
-}
 
 /*------------------------------
 	HEADER
