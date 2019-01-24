@@ -422,6 +422,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 	font-size:18px;
 	border-left:4px solid transparent;
 	transition-duration:0.7s;
+	margin-top: 6px;
 }
 
 .navbar-default .navbar-nav > li > a.blog_menu_link{
@@ -2712,6 +2713,7 @@ blockquote.twitter-tweet a:focus {
 	text-align: center;
 	margin-right: 20px;
 }
+
 
 
 
