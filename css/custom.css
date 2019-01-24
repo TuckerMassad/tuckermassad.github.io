@@ -399,7 +399,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 .navbar-default .navbar-brand {
 	font-family:'Montserrat';
-	padding:23px 0 0 25px;
+	padding:2.4rem 0 0 3rem;
 	color:#86c232;
 	font-size:24px;
 	transition-duration:0.7s;
@@ -1523,9 +1523,9 @@ blockquote footer {
 		margin:0;
 		background-color:#86c232;
 		border:0;
-		border-radius:0;
+		border-radius:5px;
 		padding:3px 0 0;
-		height:58px;
+		height:48px;
 		width:50px;
 		color:#FFFFFF;
 		font-size:24px;
@@ -2476,8 +2476,17 @@ p[data-value]:after {
 	border:1px solid #86c232;
 	padding:1px;
 	border-radius: 50%;
-	margin-top: 7px;
+	margin-top: 10px;
 
+}
+
+@media (max-width: 700px) {
+	.navbar-logo {
+
+		height: 4rem;
+		width: 4rem;
+
+	}
 }
 
 .tuckicondesc {
