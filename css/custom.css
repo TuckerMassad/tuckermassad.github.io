@@ -1525,7 +1525,7 @@ blockquote footer {
 		border:0;
 		border-radius:0;
 		padding:3px 0 0;
-		height:50px;
+		height:58px;
 		width:50px;
 		color:#FFFFFF;
 		font-size:24px;
@@ -1537,8 +1537,9 @@ blockquote footer {
 	}
 
 	.navbar-brand{
-		top:-9px;
-		position:relative;
+		margin-top:-2px;
+		position:center;
+		margin-left:-18px;
 	}
 
 
