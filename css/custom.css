@@ -2494,20 +2494,41 @@ p[data-value]:after {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 440px) {
 	.navbar-logo {
-
+		margin-left: 2px;
 		height: 4rem;
 		width: 4rem;
 
 	}
 
 	.navbar-brand {
+		margin-left: 4rem;
+		margin-top: -6px;
 
-		margin-top: -4px;
+	}
+
+}
+
+@media (max-width: 800px) {
+	.navbar-logo {
+		height: 4rem;
+		width: 4rem;
+		margin-left: 2px;
+	}
+
+	.navbar-brand {
+		margin-top: -6px;
+
+	}
+
+	.tuckiconheader{
+
+		margin-top: 8px;
 
 	}
 }
+
 
 .tuckicondesc {
 	border:5px solid #86c232;
