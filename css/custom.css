@@ -2496,14 +2496,14 @@ p[data-value]:after {
 
 @media (max-width: 440px) {
 	.navbar-logo {
-		margin-left: 2px;
+		margin-left: 2.4px;
 		height: 4rem;
 		width: 4rem;
 
 	}
 
 	.navbar-brand {
-		margin-left: 4rem;
+		margin-left: 3rem;
 		margin-top: -6px;
 
 	}
