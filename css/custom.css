@@ -2497,6 +2497,12 @@ p[data-value]:after {
 		width: 4rem;
 
 	}
+
+	.navbar-brand {
+
+		margin-top: -4px;
+
+	}
 }
 
 .tuckicondesc {
