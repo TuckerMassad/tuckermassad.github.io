@@ -282,7 +282,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .photologo {
-	margin-left: 50px;
+	margin-right: 18px;
 }
 
 .scrollpoint.active {
@@ -837,6 +837,7 @@ blockquote footer {
 	margin: 0;
 	position: relative;
 	border-radius: 0.5em / 50%;
+	margin-right: 12px;
 
 }
 
@@ -880,6 +881,10 @@ blockquote footer {
 	display: inline-block;
 	background: #ed4e6e;
 	color: #fff;
+}
+
+.desctext {
+	font-size: 14px;
 }
 
 /* Caption Style 4 */
