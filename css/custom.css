@@ -2708,6 +2708,12 @@ blockquote.twitter-tweet a:focus {
 
 }
 
+.tiniertext {
+	float: right;
+	font-size: 8px;
+	color: #0b0b0b;
+}
+
 .refcaption {
 
 	text-align: center;
