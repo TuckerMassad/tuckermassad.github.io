@@ -826,7 +826,7 @@ blockquote footer {
 
 .grid li {
 	display: inline-block;
-	width: 350px;
+	width: 370px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -837,7 +837,7 @@ blockquote footer {
 	margin: 0;
 	position: relative;
 	border-radius: 0.5em / 50%;
-	margin-right: 22px;
+	margin-right: 20px;
 
 
 }
@@ -2670,8 +2670,9 @@ blockquote.twitter-tweet a:focus {
 .refcaption {
 
 	text-align: center;
-	margin-right: 22px;
+	margin-right: 20px;
 }
+
 
 
 /* Vertical Scroll */
