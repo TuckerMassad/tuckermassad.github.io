@@ -547,13 +547,14 @@ header {
 }
 
 .tweets p {
-	padding:8px 15px 0 0px;
+	padding:2px 15px 0 0px;
 	font-family:'Montserrat';
 	font-size:16px;
 }
 
 .tweets .media-body {
 	padding-left:0;
+	bottom: 0;
 }
 
 .tweets i {
