@@ -2710,10 +2710,16 @@ blockquote.twitter-tweet a:focus {
 }
 
 .tiniertext {
-	float: right;
 	font-size: 8px;
 	color: #0b0b0b;
 }
+
+.tweetdate{
+	float:right;
+	bottom: 0;
+	overflow: hidden;
+}
+
 
 .refcaption {
 
@@ -2732,11 +2738,8 @@ a.anchorshowcase {
 	display: block;
 	position: relative;
 	height: 25px;
-	background-color: #474b4f	;
-
-
+	background-color: #474b4f;
 }
-
 
 
 
@@ -2747,5 +2750,3 @@ a.anchorshowcase {
 		height: 50px;
 	}
 }
-
-
