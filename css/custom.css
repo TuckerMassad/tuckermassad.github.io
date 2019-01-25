@@ -2723,7 +2723,13 @@ blockquote.twitter-tweet a:focus {
 
 
 
-/* Vertical Scroll */
+/* ios swap */
+
+@supports (-webkit-overflow-scrolling: touch) {
+	.brace.top:after {
+		height: 53px;
+	}
+}
 
 
 
