@@ -2724,8 +2724,17 @@ blockquote.twitter-tweet a:focus {
 a.anchor {
 	display: block;
 	position: relative;
-	height: 30px;
 	background-color: #6b6e70;
+	height: 40px;
+}
+
+a.anchorshowcase {
+	display: block;
+	position: relative;
+	height: 10px;
+	background-color: #474b4f	;
+
+
 }
 
 
