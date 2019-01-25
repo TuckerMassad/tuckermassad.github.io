@@ -2475,6 +2475,10 @@ p[data-value]:after {
 
 
 @media (max-width:768px) {
+	.qualifications{
+		margin-right: 6px;
+	}
+
 	.qualifications p {
 		font-size: 14px;
 	}
