@@ -2727,7 +2727,7 @@ blockquote.twitter-tweet a:focus {
 
 @supports (-webkit-overflow-scrolling: touch) {
 	.brace.top:after {
-		height: 53px;
+		height: 50px;
 	}
 }
 
