@@ -301,8 +301,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 @media(max-width: 1000px){
 	.photologopng {
 		padding-top: 30px;
-		height: 14%;
-		width: 14%;
+		height: 24%;
+		width: 24%;
 		text-align: center;
 	}
 }
@@ -2721,10 +2721,19 @@ a.anchorshowcase {
 
 
 
-/* ios swap */
+/* Bug fixes I have ran into on iOS */
 
 @supports (-webkit-overflow-scrolling: touch) {
 	.brace.top:after {
 		height: 50px;
+	}
+
+	@media(max-width: 1000px){
+		.photologopng {
+			padding-top: 30px;
+			height: 24%;
+			width: 24%;
+			text-align: center;
+		}
 	}
 }
