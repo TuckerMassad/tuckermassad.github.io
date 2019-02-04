@@ -301,8 +301,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 @media(max-width: 1000px){
 	.photologopng {
 		padding-top: 30px;
-		height: 24%;
-		width: 24%;
+		height: 28%;
+		width: 28%;
 		text-align: center;
 	}
 }
@@ -2731,8 +2731,8 @@ a.anchorshowcase {
 	@media(max-width: 1000px){
 		.photologopng {
 			padding-top: 30px;
-			height: 24%;
-			width: 24%;
+			height: 28%;
+			width: 28%;
 			text-align: center;
 		}
 	}
