@@ -2749,7 +2749,6 @@ a.anchorshowcase {
 	box-sizing: inherit;
 }
 .codepengallery img {
-
 	display: block;
 	width: 26rem;
 	height: 18rem;
@@ -2759,7 +2758,6 @@ a.anchorshowcase {
 	-moz-transition: opacity .35s ease-in-out;
 	-webkit-transition: opacity .35s ease-in-out;
 	margin: 0 auto;
-
 }
 
 .codepengallery a{
@@ -2818,7 +2816,7 @@ a.anchorshowcase {
 .prev {
 	color: #999;
 	position: absolute;
-	top: 38%;
+	top: 28%;
 	left: -2em;
 	font-size: 1.5em;
 }
@@ -2829,7 +2827,7 @@ a.anchorshowcase {
 .next {
 	color: #999;
 	position: absolute;
-	top: 38%;
+	top: 28%;
 	right: -2em;
 	font-size: 1.5em;
 }
