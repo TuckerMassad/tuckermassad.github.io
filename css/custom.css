@@ -570,6 +570,14 @@ header {
 	font-size:16px;
 }
 
+.tweets .carousel-inner {
+	height: 14rem;
+}
+
+.tweets .media {
+	position: relative;
+}
+
 .tweets .media-body {
 	padding-left:0;
 	bottom: 0;
@@ -2693,9 +2701,12 @@ blockquote.twitter-tweet a:focus {
 }
 
 .tweetdate{
-	float:right;
+
+	position: absolute;
+	top: 10rem;
+	right: 0;
 	bottom: 0;
-	overflow: hidden;
+
 }
 
 
