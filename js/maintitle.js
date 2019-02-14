@@ -1,6 +1,6 @@
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
-var mq = window.matchMedia( "(min-width: 360px)" ) || window.matchMedia( "(min-width: 480px)" );
+var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
 var sety = 0;
 
 if (mq.matches) {
