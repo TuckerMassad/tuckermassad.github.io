@@ -12,8 +12,10 @@ function setup_for_width(mql) {
 	}
 }
 
-var width_mql = window.matchMedia("(max-width: 960px)");
+var width_mql = window.matchMedia("(min-device-width: 320px) and (max-device-width: 480px)");
+
 width_mql.addListener(setup_for_width);
+
 setup_for_width(width_mql);
 
 var burst = new mojs.Burst({
