@@ -7,7 +7,7 @@ if (mq.matches) {
 	sety = -28;
 }
 else if (mqi.matches) {
-	sety = -224;
+	sety = -124;
 }
 else{
 	sety = -224;
@@ -15,7 +15,7 @@ else{
 
 var burst = new mojs.Burst({
 
-	speed: -2,
+	speed: -2.4,
 	opacity: 0.62,
 	y: sety,
 	radiusX: { 500: 10 },
@@ -24,7 +24,7 @@ var burst = new mojs.Burst({
 	count: 16,
 	children: {
 		shape: 'polygon',
-		points: 10,
+		points: 8,
 		scale: { 'rand(0, 2.8)': 0 },
 		fill: colorArray,
 		angle: { 'rand(0, 360)': 'rand(0, 360)' },
