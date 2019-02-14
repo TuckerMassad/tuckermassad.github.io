@@ -1,10 +1,15 @@
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
+var mqi =  window.matchMedia( "(-webkit-overflow-scrolling: touch)" );
+
 var sety = 0;
 
 if (mq.matches) {
 	sety = -224;
+}
+else if (mqi.matches) {
+	sety= -24;
 }
 else {
 	sety = -24;
