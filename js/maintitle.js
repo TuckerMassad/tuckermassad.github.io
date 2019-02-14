@@ -1,23 +1,17 @@
 var sety;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
-if (matchMedia) {
-	var mq = window.matchMedia("(min-width: 320px) and (max-width: 480px)");
-	var mqi = window.matchMedia("(min-width: 480px) and (max-width: 900px)");
-	mq.addListener(WidthChange);
-	WidthChange(mq);
+function setup_for_width(mql) {
+	if (mql.matches) {
+		sety=-224;
+	} else {
+		sety=-24;
+	}
 }
 
-function WidthChange(mq) {
-
-	if (mq.matches || mqi.matches) {
-		sety =- 224;
-	}
-	else {
-		sety = -26;
-	}
-
-}
+var width_mql = window.matchMedia("(max-width: 960px)");
+width_mql.addListener(setup_for_width);
+setup_for_width(width_mql);
 
 var burst = new mojs.Burst({
 
@@ -27,7 +21,7 @@ var burst = new mojs.Burst({
 	radiusX: { 500: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
-	count: 16,
+	count: 14,
 	children: {
 		shape: 'polygon',
 		points: 8,
