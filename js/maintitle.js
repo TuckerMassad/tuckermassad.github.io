@@ -4,7 +4,7 @@ var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
 var mqi =  window.matchMedia( "(-webkit-overflow-scrolling: touch)" );
 
 if (mq.matches) {
-	sety = -224;
+	sety = -4;
 }
 else if (mqi.matches) {
 	sety= 140;
