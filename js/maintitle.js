@@ -1,17 +1,24 @@
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
-var mq = window.matchMedia( "(max-width: 960px)" );
+var mq = window.matchMedia( "(min-width: 360px)" ) || window.matchMedia( "(min-width: 480px)" );
 var sety = 0;
+
+if (mq.matches) {
+	sety = -224;
+}
+else {
+	sety = -24;
+}
 
 var burst = new mojs.Burst({
 
 	speed: -6,
 	opacity: 0.58,
-	y: -24,
+	y: sety,
 	radiusX: { 800: 10 },
 	radiusY: { 160: 10 },
 	duration: 4000,
-	count: 18,
+	count: 16,
 	children: {
 		shape: 'polygon',
 		points: 10,
