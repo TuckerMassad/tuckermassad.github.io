@@ -3,7 +3,7 @@ var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
 
 if (mq.matches) {
-	sety = -240;
+	sety = -224;
 }
 else {
 	sety = -28;
