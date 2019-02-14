@@ -2986,10 +2986,16 @@ a.anchorshowcase {
 
 }
 
-.slift {
+.sliftleft {
 	bottom: 0.34rem;
 	transform: scale(0.7);
-	margin-right:-0.16em;
-	margin-left: -0.16em;
+
+}
+
+.sliftright {
+	bottom: 0.34rem;
+	transform: scale(0.7);
+	margin-left: -0.8rem;
+
 }
 
