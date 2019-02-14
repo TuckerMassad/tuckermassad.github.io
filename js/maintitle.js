@@ -2,20 +2,27 @@ var sety;
 var countNum;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
+var width_mql = window.matchMedia("(min-device-width: 320px) and (max-device-width: 480px)");
+
+var width_mql_alt = window.matchMedia("(max-width: 960px)");
+
+width_mql.addListener(setup_for_width);
+
+width_mql_alt.addListener(setup_for_width);
+
+setup_for_width(width_mql);
+
+setup_for_width(width_mql_alt);
+
 function setup_for_width(mql) {
 	if (mql.matches) {
 		sety=-224;
+		countNum=14;
 	} else {
 		sety=-24;
 		countNum=14;
 	}
 }
-
-var width_mql = window.matchMedia("(min-device-width: 320px) and (max-device-width: 480px)");
-
-width_mql.addListener(setup_for_width);
-
-setup_for_width(width_mql);
 
 var burst = new mojs.Burst({
 
