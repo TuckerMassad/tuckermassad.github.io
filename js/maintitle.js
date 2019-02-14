@@ -3,10 +3,10 @@ var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
 
 if (mq.matches) {
-	sety = -40;
+	sety = -220;
 }
 else {
-	sety = -24;
+	sety = -28;
 }
 
 var burst = new mojs.Burst({
