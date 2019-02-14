@@ -485,11 +485,19 @@ header {
 	background-color:#222629;
 }
 
+
 .jumbotron img {
 	margin:0 auto 0 auto;
 	max-height:350px;
 	margin-bottom:15px;
 }
+
+.jumbotron .brands {
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	padding-top: 4rem;
+}
+
 
 .social-wrapper h2 {
 	display:inline;
@@ -2952,3 +2960,36 @@ a.anchorshowcase {
 	-webkit-transition-delay:.2s;
 	transition-delay:.2s;
 }
+
+
+/* CSSans Main Title */
+
+#bubblewrapper {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom: -1.4rem;
+}
+
+.cssans__word {
+	position: relative;
+}
+
+.cssans {
+	font-size: 1.8rem;
+	--cssans-primary: 97,137,47;
+	--cssans-secondary: 134,194,50;
+	--cssans-accent1: 134,194,50;
+	--cssans-accent2: 120,174,45;
+	--cssans-accent3: 71,75,79;
+	padding-top: 1rem;
+
+}
+
+.slift {
+	bottom: 0.34rem;
+	transform: scale(0.7);
+	margin-right:-0.16em;
+	margin-left: -0.16em;
+}
+
