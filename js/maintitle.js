@@ -8,6 +8,16 @@ if (matchMedia) {
 	WidthChange(mq);
 }
 
+function WidthChange(mq) {
+
+	if (mq.matches || mqi.matches) {
+		sety =- 224;
+	}
+	else {
+		sety = -26;
+	}
+
+}
 
 var burst = new mojs.Burst({
 
@@ -32,16 +42,3 @@ var burst = new mojs.Burst({
 	} }).
 
 replay();
-
-
-
-function WidthChange(mq) {
-
-	if (mq.matches || mqi.matches) {
-		sety =- 224;
-	}
-	else {
-		sety = -26;
-	}
-
-}
