@@ -3,6 +3,7 @@ var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 if (matchMedia) {
 	var mq = window.matchMedia("(min-width: 320px) and (max-width: 480px)");
+	var mqi = window.matchMedia("(min-width: 480px) and (max-width: 900px)");
 	mq.addListener(WidthChange);
 	WidthChange(mq);
 }
@@ -36,7 +37,7 @@ replay();
 
 function WidthChange(mq) {
 
-	if (mq.matches) {
+	if (mq.matches || mqi.matches) {
 		sety =- 224;
 	}
 	else {
