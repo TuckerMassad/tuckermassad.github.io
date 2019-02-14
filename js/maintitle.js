@@ -1,13 +1,10 @@
 var sety;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
-var mq =  window.matchMedia( "(min-width: 480px)" );
-var mqi = window.matchMedia( "(max-width: 960px)" );
 
-if ($(window).width()<960) {
-	sety=-224;
-}
-else {
-	sety=-24;
+if (matchMedia) {
+	var mq = window.matchMedia("(max-width: 960px)");
+	mq.addListener(WidthChange);
+	WidthChange(mq);
 }
 
 
@@ -34,3 +31,15 @@ var burst = new mojs.Burst({
 	} }).
 
 replay();
+
+
+function WidthChange(mq) {
+
+	if (mq.matches) {
+		sety =- 224;
+	}
+	else {
+		sety = -26;
+	}
+
+}
