@@ -1,11 +1,14 @@
 var sety;
+var countNum;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 function setup_for_width(mql) {
 	if (mql.matches) {
 		sety=-224;
+		countNum=0;  //Currently have the count go to 0 on small screens. Need to fix this so its lower on iphones.
 	} else {
 		sety=-24;
+		countNum=14;
 	}
 }
 
@@ -21,7 +24,7 @@ var burst = new mojs.Burst({
 	radiusX: { 500: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
-	count: 14,
+	count: countNum,
 	children: {
 		shape: 'polygon',
 		points: 8,
