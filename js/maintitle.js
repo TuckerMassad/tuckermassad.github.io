@@ -2,6 +2,16 @@ var sety;
 var countNum;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
+function setup_for_width(mql) {
+	if (mql.matches) {
+		sety=-224;
+		countNum=14;
+	} else {
+		sety=-24;
+		countNum=14;
+	}
+}
+
 var width_mql = window.matchMedia("(min-device-width: 320px) and (max-device-width: 480px)");
 
 var width_mql_alt = window.matchMedia("(max-width: 960px)");
@@ -14,18 +24,7 @@ setup_for_width(width_mql);
 
 setup_for_width(width_mql_alt);
 
-function setup_for_width(mql) {
-	if (mql.matches) {
-		sety=-224;
-		countNum=14;
-	} else {
-		sety=-24;
-		countNum=14;
-	}
-}
-
 var burst = new mojs.Burst({
-
 	speed: -3.4,
 	opacity: 0.56,
 	y: sety,
