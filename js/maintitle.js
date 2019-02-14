@@ -1,13 +1,19 @@
 var sety;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 var mq =  window.matchMedia( "only screen and (max-width: 960px)" );
-var mqi =  window.matchMedia( "(-webkit-overflow-scrolling: touch)" );
+
+if (mq.matches) {
+	sety = -40;
+}
+else {
+	sety = -24;
+}
 
 var burst = new mojs.Burst({
 
-	speed: -6,
+	speed: -2,
 	opacity: 0.58,
-	y: -24,
+	y: sety,
 	radiusX: { 800: 10 },
 	radiusY: { 160: 10 },
 	duration: 4000,
