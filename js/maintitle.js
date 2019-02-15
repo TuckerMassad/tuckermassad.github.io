@@ -15,14 +15,14 @@ if (mq.matches) {
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 var burst = new mojs.Burst({
-	speed: -6.4,
+	speed: -16.4,
 	zIndex: -999,
-	opacity: 0.52,
+	opacity: 0.42,
 	y: bubbleorigin,
 	radiusX: { 260: 10 },
-	radiusY: { 30: 10 },
+	radiusY: { 20: 10 },
 	duration: 4000,
-	count: countAmount,
+	count: 0,
 	children: {
 		shape: 'polygon',
 		points: 8,
