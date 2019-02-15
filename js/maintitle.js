@@ -22,7 +22,7 @@ var burst = new mojs.Burst({
 	radiusX: { 260: 10 },
 	radiusY: { 20: 10 },
 	duration: 4000,
-	count: countAmount,  //change to countAmount when pushing live
+	count: 0,  //change to countAmount when pushing live
 	children: {
 		shape: 'polygon',
 		points: 8,
