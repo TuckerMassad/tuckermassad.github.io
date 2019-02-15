@@ -1,6 +1,6 @@
 var countAmount;
 
-const mq = window.matchMedia( "(min-width: 960px)" );
+const mq = window.matchMedia( "(min-width: 1280px)" );
 
 if (mq.matches) {
 	countAmount=10;
