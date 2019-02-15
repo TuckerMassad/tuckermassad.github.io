@@ -1,3 +1,13 @@
+var countAmount;
+
+const mq = window.matchMedia( "(min-width: 960px)" );
+
+if (mq.matches) {
+	countAmount=10;
+} else {
+	countAmount=0;
+}
+
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 var burst = new mojs.Burst({
@@ -7,7 +17,7 @@ var burst = new mojs.Burst({
 	radiusX: { 360: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
-	count: 12,
+	count: countAmount,
 	children: {
 		shape: 'polygon',
 		points: 8,
