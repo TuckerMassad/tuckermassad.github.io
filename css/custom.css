@@ -2971,6 +2971,10 @@ a.anchorshowcase {
 	margin-bottom: -1.4rem;
 }
 
+#bubblewrapperabove {
+	position: fixed;
+}
+
 .cssans__word {
 	position: relative;
 }

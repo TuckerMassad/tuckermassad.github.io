@@ -1,6 +1,6 @@
 var div = document.getElementById("bubblewrapperabove");
 var rect = div.getBoundingClientRect();
-var bubbleorigin = rect.bottom;
+var bubbleorigin = rect.top;
 
 var countAmount;
 
@@ -20,9 +20,9 @@ var burst = new mojs.Burst({
 	opacity: 0.42,
 	y: bubbleorigin,
 	radiusX: { 260: 10 },
-	radiusY: { 20: 10 },
+	radiusY: { 120: 10 },
 	duration: 4000,
-	count: 0,  //change to countAmount when pushing live
+	count: countAmount,  //change to countAmount when pushing live
 	children: {
 		shape: 'polygon',
 		points: 8,
