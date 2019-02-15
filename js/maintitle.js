@@ -1,33 +1,13 @@
-var sety;
-var countNum;
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
-
-function getY(){
-	return sety;
-}
-
-function setup_for_width(mql) {
-	if (mql.matches) {
-		sety=-224;
-		countNum=14;
-	} else {
-		sety=-24;
-		countNum=14;
-	}
-}
-
-var width_mql = window.matchMedia("(min-width: 320px) and (max-width: 480px)");
-width_mql.addListener(setup_for_width);
-setup_for_width(width_mql);
 
 var burst = new mojs.Burst({
 	speed: -3.4,
 	opacity: 0.56,
-	y: getY(),
+	y: -26,
 	radiusX: { 500: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
-	count: countNum,
+	count: 18,
 	children: {
 		shape: 'polygon',
 		points: 8,
