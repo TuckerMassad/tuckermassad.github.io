@@ -1,3 +1,7 @@
+var div = document.getElementById("bubblewrapperabove");
+var rect = div.getBoundingClientRect();
+var bubbleorigin = rect.bottom-80;
+
 var countAmount;
 
 const mq = window.matchMedia( "(min-width: 1280px)" );
@@ -13,7 +17,7 @@ var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 var burst = new mojs.Burst({
 	speed: -6.4,
 	opacity: 0.52,
-	y: -30,
+	y: bubbleorigin,
 	radiusX: { 360: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
