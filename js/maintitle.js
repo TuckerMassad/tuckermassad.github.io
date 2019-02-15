@@ -16,10 +16,11 @@ var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 var burst = new mojs.Burst({
 	speed: -6.4,
+	zIndex: -999,
 	opacity: 0.52,
 	y: bubbleorigin,
-	radiusX: { 360: 10 },
-	radiusY: { 170: 10 },
+	radiusX: { 260: 10 },
+	radiusY: { 30: 10 },
 	duration: 4000,
 	count: countAmount,
 	children: {
@@ -31,8 +32,11 @@ var burst = new mojs.Burst({
 		duration: 'rand(1000, 7000)',
 		delay: 'rand(0, 2000)' },
 
+
 	onComplete: function onComplete() {
 		this.generate().replay();
 	} }).
 
 replay();
+
+
