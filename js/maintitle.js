@@ -1,13 +1,13 @@
 var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
 
 var burst = new mojs.Burst({
-	speed: -3.4,
-	opacity: 0.56,
-	y: -26,
-	radiusX: { 500: 10 },
+	speed: -6.4,
+	opacity: 0.52,
+	y: -30,
+	radiusX: { 360: 10 },
 	radiusY: { 170: 10 },
 	duration: 4000,
-	count: 18,
+	count: 12,
 	children: {
 		shape: 'polygon',
 		points: 8,
