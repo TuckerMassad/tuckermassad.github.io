@@ -667,6 +667,7 @@ header {
 	border-left:3px solid #FFFFFF;
 	margin-left:110px;
 	padding-left:0px;
+
 }
 
 .event {
@@ -1812,15 +1813,15 @@ blockquote footer {
 
 @media (max-width:480px) {
 	.timeline {
-		margin:25px 0 0 170px;
+		margin:25px 0 0 180px;
 	}
 
 	.event .event-info {
-		width:160px;
+		width:170px;
 	}
 
 	.event .event-info .date {
-		margin-left:85px;
+		margin-left:95px;
 	}
 
 	.blog-post {
@@ -1884,10 +1885,10 @@ blockquote footer {
 	#blog-header i {
 		font-size:28px;
 	}
+
 }
 
 /* Progress Bars */
-
 
 
 ul{
@@ -3002,4 +3003,5 @@ a.anchorshowcase {
 	margin-left: -0.8rem;
 
 }
+
 
