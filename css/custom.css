@@ -698,6 +698,95 @@ header {
 	padding-top:2px;
 }
 
+
+.event .event-info-first:after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900; /* Fix version 5.0.9 */
+	content:"\f508";
+	width:36px;
+	height:36px;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	text-align:center;
+	font-size:14px;
+	border-radius:50%;
+	background-color:#86c232;
+	border:6px solid #474b4f;
+	display: inline-block;
+	padding-top:2px;
+}
+
+.event .event-info-second:after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900; /* Fix version 5.0.9 */
+	content:"\f501";
+	width:36px;
+	height:36px;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	text-align:center;
+	font-size:14px;
+	border-radius:50%;
+	background-color:#86c232;
+	border:6px solid #474b4f;
+	display: inline-block;
+	padding-top:2px;
+}
+
+.event .event-info-third:after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900; /* Fix version 5.0.9 */
+	content:"\f508";
+	width:36px;
+	height:36px;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	text-align:center;
+	font-size:14px;
+	border-radius:50%;
+	background-color:#86c232;
+	border:6px solid #474b4f;
+	display: inline-block;
+	padding-top:2px;
+}
+
+.event .event-info-fourth:after {
+	font-family: "Font Awesome 5 Free";
+	content:"\f024";
+	width:36px;
+	height:36px;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	text-align:center;
+	font-size:14px;
+	border-radius:50%;
+	background-color:#86c232;
+	border:6px solid #474b4f;
+	display: inline-block;
+	padding-top:2px;
+}
+
+.event .event-info-fifth:after {
+	font-family: "Font Awesome 5 Free";
+	content:"\f024";
+	width:36px;
+	height:36px;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	text-align:center;
+	font-size:14px;
+	border-radius:50%;
+	background-color:#86c232;
+	border:6px solid #474b4f;
+	display: inline-block;
+	padding-top:2px;
+}
+
 .event .event-info .date {
 	font-size:12px;
 	font-family:'Montserrat';
