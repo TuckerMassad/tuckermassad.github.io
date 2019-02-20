@@ -293,6 +293,10 @@ only screen and (min-device-pixel-ratio: 1.5){
 	text-align: center;
 }
 
+.photologotextbelow {
+	margin-top: 1px;
+}
+
 
 .scrollpoint.active {
 	opacity:1;
