@@ -1906,15 +1906,15 @@ blockquote footer {
 
 @media (max-width:480px) {
 	.timeline {
-		margin:25px 0 0 180px;
+		margin:25px 0 0 170px;
 	}
 
 	.event .event-info {
-		width:170px;
+		width:160px;
 	}
 
 	.event .event-info .date {
-		margin-left:95px;
+		margin-left:85px;
 	}
 
 	.blog-post {
@@ -1952,15 +1952,15 @@ blockquote footer {
 	}
 
 	.timeline {
-		margin:25px 0 0 110px;
+		margin:25px 0 0 180px;
 	}
 
 	.event .event-info {
-		width:100px;
+		width:150px;
 	}
 
 	.event .event-info .date {
-		margin-left:25px;
+		margin-left:75px;
 	}
 
 	.grid li {
