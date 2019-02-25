@@ -261,7 +261,9 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-first {
-	background-color:#474b4f;
+	background: rgb(71,75,79);
+background: linear-gradient(90deg, rgba(71,75,79,1) 0%, rgba(71,75,79,1) 35%, rgba(48,52,55,1) 100%);
+
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -269,7 +271,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-second {
-	background-color:#6b6e70;
+	background: rgb(107,110,112);
+background: linear-gradient(90deg, rgba(107,110,112,1) 0%, rgba(107,110,112,1) 35%, rgba(67,69,71,1) 100%);
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -3112,6 +3115,7 @@ a.anchorshowcase {
 
 
 #stars {
+	opacity: 0.6;
 	z-index: -999;
 	border-radius: 50%;
   width: 1px;
@@ -3131,6 +3135,7 @@ a.anchorshowcase {
 }
 
 #stars2 {
+	opacity: 0.6;
 	z-index: -999;
 	border-radius: 50%;
   width: 2px;
@@ -3150,6 +3155,7 @@ a.anchorshowcase {
 }
 
 #stars3 {
+	opacity: 0.6;
 	z-index: -999;
 	border-radius: 50%;
   width: 3px;
