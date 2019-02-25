@@ -1,42 +1,77 @@
-var div = document.getElementById("bubblewrapperabove");
-var rect = div.getBoundingClientRect();
-var bubbleorigin = rect.top;
+var camera, scene, renderer, particles, particle, material, particleCount, points, texture;
+var xSpeed, ySpeed;
+xSpeed = 0.0005;
+ySpeed = 0.001;
+var winWidth, winHeight;
+winWidth = window.innerWidth;
+winHeight = window.innerHeight;
 
-var countAmount;
+init();
+animate();
 
-const mq = window.matchMedia( "(min-width: 1280px)" );
+function init(){
+	scene = new THREE.Scene();
+	scene.fog = new THREE.FogExp2('#222', 0.001);
 
-if (mq.matches) {
-	countAmount=10;
-} else {
-	countAmount=0;
+	camera = new THREE.PerspectiveCamera(75, winWidth/winHeight, 1, 1000);
+	camera.position.z = 500;
+
+	// particle
+	// transparentとblendingたぶん効いてない
+	material = new THREE.PointsMaterial({
+		color: 0xffffff,
+		size: 3,
+		transparent: true,
+		blending: THREE.AdditiveBlending
+	});
+
+	particleCount = 15000;
+	particles = new THREE.Geometry();
+
+	for (var i = 0; i < particleCount; i++) {
+		var px = Math.random() * 2000 - 1000;
+		var py = Math.random() * 2000 - 1000;
+		var pz = Math.random() * 2000 - 1000;
+		particle = new THREE.Vector3(px, py, pz);
+		particle.velocity = new THREE.Vector3(0, Math.random(), 0);
+		particles.vertices.push(particle);
+	}
+
+	points = new THREE.Points(particles, material);
+	points.sortParticles = true;
+	scene.add(points);
+
+	renderer = new THREE.WebGLRenderer({ antialias: true });
+	renderer.setSize(winWidth, winHeight);
+	renderer.setClearColor('#222', 1);
+	document.getElementById('canvas').appendChild(renderer.domElement);
 }
 
-var colorArray = ['#61892F', '#86c232', '#222629', '#fff', '#686e70'];
+function animate(){
+	requestAnimationFrame(animate);
 
-var burst = new mojs.Burst({
-	speed: -16.4,
-	zIndex: -999,
-	opacity: 0.42,
-	y: bubbleorigin,
-	radiusX: { 260: 10 },
-	radiusY: { 120: 10 },
-	duration: 4000,
-	count: 0,  //change to countAmount when pushing live
-	children: {
-		shape: 'polygon',
-		points: 8,
-		scale: { 'rand(0, 2.8)': 0 },
-		fill: colorArray,
-		angle: { 'rand(0, 360)': 'rand(0, 360)' },
-		duration: 'rand(1000, 7000)',
-		delay: 'rand(0, 2000)' },
+	scene.rotation.y += xSpeed;
 
+	// パーティクル上下移動
+	var i = particleCount;
+	while(i--){
+		var particle = particles.vertices[i];
 
-	onComplete: function onComplete() {
-		this.generate().replay();
-	} }).
+		// y
+		if(particle.y > 1000){
+			particle.y = -1000;
+			particle.velocity.y = Math.random();
+		}
+		particle.velocity.y += Math.random() * ySpeed;
 
-replay();
+		particle.add(particle.velocity);
+	}
+	points.geometry.verticesNeedUpdate = true;
 
+	render();
+}
 
+function render(){
+	camera.lookAt(scene.position);
+	renderer.render(scene, camera);
+}
