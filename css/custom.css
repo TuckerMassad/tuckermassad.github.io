@@ -3112,6 +3112,8 @@ a.anchorshowcase {
 
 
 #stars {
+	z-index: -999;
+	border-radius: 50%;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -3129,6 +3131,8 @@ a.anchorshowcase {
 }
 
 #stars2 {
+	z-index: -999;
+	border-radius: 50%;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -3146,6 +3150,8 @@ a.anchorshowcase {
 }
 
 #stars3 {
+	z-index: -999;
+	border-radius: 50%;
   width: 3px;
   height: 3px;
   background: transparent;
