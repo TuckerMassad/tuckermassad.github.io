@@ -770,7 +770,8 @@ header {
 
 .event .event-info-fourth:after {
 	font-family: "Font Awesome 5 Free";
-	content:"\f024";
+	font-weight: 900; /* Fix version 5.0.9 */
+	content:"\f501";
 	width:36px;
 	height:36px;
 	position: absolute;
@@ -787,7 +788,8 @@ header {
 
 .event .event-info-fifth:after {
 	font-family: "Font Awesome 5 Free";
-	content:"\f024";
+	font-weight: 900; /* Fix version 5.0.9 */
+	content:"\f508";
 	width:36px;
 	height:36px;
 	position: absolute;
@@ -3179,4 +3181,36 @@ a.anchorshowcase {
   to {
     transform: translateY(-800px);
   }
+}
+
+@media (max-width: 480px) {
+	.event .event-info-first:after {
+
+		border:6px solid #474b4f;
+
+	}
+
+	.event .event-info-second:after {
+
+		border:6px solid #3f474a;
+
+	}
+
+	.event .event-info-third:after {
+
+		border:6px solid #3f474a;
+
+	}
+
+	.event .event-info-fourth:after {
+
+		border:6px solid #394444;
+
+	}
+
+	.event .event-info-fifth:after {
+
+		border:6px solid #35403c;
+
+	}
 }
