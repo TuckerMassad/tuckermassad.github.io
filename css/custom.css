@@ -261,7 +261,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-first {
-	background-image: radial-gradient(circle, #474b4f, #3f474a, #394444, #35403c, #343b33);
+	background-image: radial-gradient(circle, #474b4f, #40484b, #394444, #36403c, #353c34);
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -269,7 +269,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-second {
-	background-image: radial-gradient(circle, #6b6e70, #62696a, #5a6363, #545e5a, #505850);
+	background-image: radial-gradient(circle, #6b6e70, #606769, #56605f, #4e5955, #495149);
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -2831,20 +2831,12 @@ blockquote.twitter-tweet a:focus {
 	margin-right: 20px;
 }
 
-a.anchor {
+.anchor {
 	display: block;
-	position: relative;
-	background-color: #6b6e70;
-	height: 40px;
+	height:34px; /* this is the height of your header */
+	margin-top:-34px; /* this is again negative value of the height of your header */
+	visibility:hidden;
 }
-
-a.anchorshowcase {
-	display: block;
-	position: relative;
-	height: 25px;
-	background-color: #474b4f;
-}
-
 
 
 /* Bug fixes I have ran into on iOS */
