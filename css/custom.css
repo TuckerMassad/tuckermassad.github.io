@@ -229,13 +229,13 @@ p {
 }
 
 h2 {
-	margin:0 0 20px;
 	color:#FFFFFF;
-	font-family:'Montserrat';
+	font-family:'Questrial';
 	font-size:56px;
 }
 
 h3 {
+	margin-top: -10px;
 	color:#FFFFFF;
 	font-family:'Alegreya Sans SC';
 }
@@ -2876,6 +2876,8 @@ blockquote.twitter-tweet a:focus {
 	-moz-transition: opacity .35s ease-in-out;
 	-webkit-transition: opacity .35s ease-in-out;
 	margin: 0 auto;
+	opacity: 0.9;
+
 }
 
 .codepengallery a{
