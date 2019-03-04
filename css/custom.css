@@ -235,7 +235,7 @@ h2 {
 }
 
 h3 {
-	
+
 	color:#FFFFFF;
 	font-family:'Alegreya Sans SC';
 }
@@ -627,7 +627,7 @@ header {
 	right: 0;
 	top: 0;
 	text-align:center;
-	padding-top:25%;
+	padding-top:0%;
 	border-radius:150px;
 }
 
@@ -3004,24 +3004,23 @@ blockquote.twitter-tweet a:focus {
 }
 
 .hovereffect h2 {
-	text-transform:uppercase;
+	top: -20px;
 	color:#fff;
 	text-align:center;
 	position:relative;
-	font-size:17px;
+	font-size:16px;
 	background:rgba(0,0,0,0.6);
 	-webkit-transform:translatey(-100px);
 	-ms-transform:translatey(-100px);
 	transform:translatey(-100px);
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
-	padding:10px;
+	padding:12.5px;
 }
 
 .hovereffect a.info {
 	text-decoration:none;
 	display:inline-block;
-	text-transform:uppercase;
 	color:#fff;
 	border:1px solid #fff;
 	background-color:transparent;
@@ -3029,7 +3028,7 @@ blockquote.twitter-tweet a:focus {
 	filter:alpha(opacity=0);
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
-	margin:50px 0 0;
+	margin:30px 0 0;
 	padding:7px 14px;
 }
 
