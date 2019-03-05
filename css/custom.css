@@ -832,7 +832,7 @@ header {
 .service > p {
 	line-height:22px;
 	text-align: justify;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 
 
 
@@ -877,7 +877,7 @@ header {
 	margin-top:15px;
 }
 
-#showcase p {
+#showcase .media-body p {
 	text-rendering: geometricPrecision;
 }
 
