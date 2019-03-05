@@ -204,6 +204,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+
 }
 
 body {
@@ -830,7 +831,9 @@ header {
 
 .service > p {
 	line-height:22px;
-	text-rendering: optimizeLegibility;
+	text-align: justify;
+	text-rendering: geometricPrecision;
+
 
 
 
@@ -872,6 +875,10 @@ header {
 #showcase h4 {
 	color:#FFFFFF;
 	margin-top:15px;
+}
+
+#showcase p {
+	text-rendering: geometricPrecision;
 }
 
 #showcase .showcase-text {
