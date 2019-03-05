@@ -261,7 +261,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-first {
-	background-image: radial-gradient(circle, #474b4f, #40484b, #394444, #36403c, #353c34);
+	background: #474b4f;
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -269,7 +269,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 .content-second {
-	background-image: radial-gradient(circle, #6b6e70, #606769, #56605f, #4e5955, #495149);
+	background: #6b6e70;
 	padding:80px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -317,7 +317,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 	position: fixed;
 	bottom: 15px;
 	right: 25px;
-	color: #ED5A64;
+	color: #86c232;
 	border:1px solid rgba(0,0,0,0.2);
 	font-size: 16px;
 	display: none;
@@ -335,7 +335,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 	background-color:#FFFFFF;
 	border-color:rgba(0,0,0,0.2);
 	padding-top:0px;
-	color: #ED5A64;
+	color: #86c232;
 }
 
 /*------------------------------
@@ -727,7 +727,7 @@ header {
 	font-size:14px;
 	border-radius:50%;
 	background-color:#86c232;
-	border:6px solid #394444;
+	border:6px solid #474b4f;
 	display: inline-block;
 	padding-top:2px;
 }
@@ -745,7 +745,7 @@ header {
 	font-size:14px;
 	border-radius:50%;
 	background-color:#86c232;
-	border:6px solid #394444;
+	border:6px solid #474b4f;
 	display: inline-block;
 	padding-top:2px;
 }
@@ -763,7 +763,7 @@ header {
 	font-size:14px;
 	border-radius:50%;
 	background-color:#86c232;
-	border:6px solid #394444;
+	border:6px solid #474b4f;
 	display: inline-block;
 	padding-top:2px;
 }
@@ -781,7 +781,7 @@ header {
 	font-size:14px;
 	border-radius:50%;
 	background-color:#86c232;
-	border:6px solid #394444;
+	border:6px solid #474b4f;
 	display: inline-block;
 	padding-top:2px;
 }
@@ -799,7 +799,7 @@ header {
 	font-size:14px;
 	border-radius:50%;
 	background-color:#86c232;
-	border:6px solid #394444;
+	border:6px solid #474b4f;
 	display: inline-block;
 	padding-top:2px;
 }
@@ -830,7 +830,9 @@ header {
 
 .service > p {
 	line-height:22px;
-	text-align:justify;
+	text-rendering: optimizeLegibility;
+
+
 
 }
 
@@ -2812,7 +2814,7 @@ blockquote.twitter-tweet a:focus {
 
 .tiniertext {
 	font-size: 8px;
-	color: #0b0b0b;
+	color: #fff;
 }
 
 .tweetdate{
