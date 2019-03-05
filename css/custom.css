@@ -821,6 +821,10 @@ header {
 	SERVICES
 ------------------------------*/
 
+.service h2 {
+	margin-top: -200px;
+}
+
 .service > h3 {
 	transition-duration:0.2s;
 }
@@ -842,6 +846,10 @@ header {
 #services {
 	height:680px;
 
+}
+
+.servicetitle {
+	margin-top: -40px;
 }
 
 
