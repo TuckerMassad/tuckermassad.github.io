@@ -1,16 +1,7 @@
-let hoursWorked = 120;
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0');
+var yyyy = today.getFullYear();
 
-function tick()
-{
-	hoursworked++;
-}
-
-setInterval(function() { tick(); }, 60*601000);
-
-document.getElementById('tick').innerHTML = hoursWorked;
-
-
-
-
-
-
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById("curTime").innerHTML = today;
