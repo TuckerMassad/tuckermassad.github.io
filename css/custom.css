@@ -550,7 +550,7 @@ header {
 }
 
 .jumbotron .btn {
-	margin-right:15px;
+	margin-right:5px;
 }
 
 /*------------------------------
@@ -1058,6 +1058,7 @@ blockquote footer {
 }
 
 .desctext {
+	margin-top: 10px;
 	font-size: 14px;
 }
 
@@ -3013,7 +3014,8 @@ blockquote.twitter-tweet a:focus {
 	opacity:0;
 	background-color:rgba(0,0,0,0.5);
 	-webkit-transition:all .4s ease-in-out;
-	transition:all .4s ease-in-out
+	transition:all .4s ease-in-out;
+	border-radius: 3em / 20%;
 
 
 }
@@ -3053,6 +3055,7 @@ blockquote.twitter-tweet a:focus {
 	transition:all .2s ease-in-out;
 	margin:30px 0 0;
 	padding:7px 14px;
+	border-radius: 0.6rem;
 }
 
 .hovereffect a.info:hover {
@@ -3082,6 +3085,7 @@ blockquote.twitter-tweet a:focus {
 .hovereffect:hover a.info {
 	-webkit-transition-delay:.2s;
 	transition-delay:.2s;
+
 }
 
 
