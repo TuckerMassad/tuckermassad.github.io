@@ -523,6 +523,7 @@ header {
 
 .brands {
 	display:inline;
+	z-index: 1;
 }
 
 .brands > li > a {
@@ -3138,5 +3139,12 @@ blockquote.twitter-tweet a:focus {
 	top: 0;
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
+	z-index: 0;
 
+}
+
+.jumbobutton{
+	position: relative;
+	z-index: 1;
 }
