@@ -4,7 +4,9 @@
 paceOptions = {
     ajax: true,
     document: true,
-    eventLag: false
+    eventLag: {
+        lagThreshold: 10
+    }
 };
 
 var initDestroyTimeOutPace = function() {
@@ -27,4 +29,5 @@ var initDestroyTimeOutPace = function() {
         }
     }, 100);
 }
+
 initDestroyTimeOutPace();
