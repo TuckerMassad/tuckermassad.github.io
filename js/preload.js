@@ -13,7 +13,7 @@ var initDestroyTimeOutPace = function() {
     var refreshIntervalId = setInterval( function(){
         var progress;
 
-        if( typeof $( '.pace-progress' ).attr( 'data-progress-text' ) !== 'undefined' ) {
+        if( typeof ( '.pace-progress' ).attr( 'data-progress-text' ) !== 'undefined' ) {
             progress = Number( $( '.pace-progress' ).attr( 'data-progress-text' ).replace("%" ,'') );
         }
 
