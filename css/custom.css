@@ -563,6 +563,10 @@ header {
 	padding-bottom:0;
 }
 
+#about #codepenanchor {
+	color: #86c232;
+}
+
 #about h3 {
 	border-bottom:3px solid #FFFFFF;
 	padding-bottom:5px;
