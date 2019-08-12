@@ -563,8 +563,12 @@ header {
 	padding-bottom:0;
 }
 
-#about #codepenanchor {
+#about .codepenanchor {
 	color: #86c232;
+}
+
+#about .codepenanchor:hover {
+	color: #61892f;
 }
 
 #about h3 {
@@ -618,11 +622,11 @@ header {
 	font-size:68px;
 	color:#474b4f;
 	padding-left:15px;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 }
 
 .tweets i:hover {
-	color:#222629;
+	color:#0084b4;
 }
 
 /* IMAGE OVERLAY */
@@ -701,6 +705,14 @@ header {
 .event {
 	padding:20px 10px 20px 18px;
 	margin-bottom:15px;
+}
+
+.event span a {
+	color: #86c232;
+}
+
+.event span a:hover {
+	color: #61892f;
 }
 
 .event .event-info {
@@ -837,6 +849,14 @@ header {
 	margin-top: -200px;
 }
 
+.service .codepenanchor {
+	color: #86c232;
+}
+
+.service .codepenanchor:hover {
+	color: #61892f;
+}
+
 .service > h3 {
 	transition-duration:0.2s;
 }
@@ -849,10 +869,6 @@ header {
 	line-height:22px;
 	text-align: justify;
 	text-rendering: optimizeLegibility;
-
-
-
-
 }
 
 #services {
