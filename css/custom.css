@@ -618,6 +618,11 @@ header {
 	font-size:68px;
 	color:#474b4f;
 	padding-left:15px;
+	transition-duration: 0.5s;
+}
+
+.tweets i:hover {
+	color:#222629;
 }
 
 /* IMAGE OVERLAY */
