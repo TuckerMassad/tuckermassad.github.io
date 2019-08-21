@@ -294,11 +294,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 	text-align: center;
 }
 
-.photologotextbelow {
-	margin-top: 1px;
-}
-
-
 .scrollpoint.active {
 	opacity:1;
 }
@@ -858,7 +853,7 @@ header {
 }
 
 .service > h3 {
-	transition-duration:0.2s;
+	transition-duration:0.1s;
 }
 
 .service:hover > h3 {
@@ -3091,7 +3086,6 @@ blockquote.twitter-tweet a:focus {
 }
 
 .hovereffect:hover img {
-
 	-ms-transform:scale(1.2);
 	-webkit-transform:scale(1.2);
 	transform:scale(1.2);

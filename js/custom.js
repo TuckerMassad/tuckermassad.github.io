@@ -60,10 +60,12 @@ $(document).ready(function() {
 	});
 	
 	$('#separator').waypoint(function(){$('#separator .number').countTo();},{offset:'85%'});
-	
+
+	/* add 15px bottom padding on hover */
+
 	if($(window).width() > 767) {
 		$('.service').mouseenter(function(e) {
-			$(this).find('img').animate({paddingBottom: "15px"},500);
+			$(this).find('img').animate({paddingBottom: "6px"},500);
 		});
 		
 		$('.service').mouseleave(function(e) {
