@@ -583,6 +583,10 @@ header {
 	color:#474b4f;
 }
 
+#about .fas {
+	padding-right: 0.5em;
+}
+
 /* TWITTER FEED */
 
 .tweets {
