@@ -857,6 +857,8 @@ header {
 }
 
 .service > h3 {
+	padding-top: 1em;
+	font-size: 22px;
 	transition-duration:0.1s;
 }
 

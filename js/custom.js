@@ -82,16 +82,6 @@ $(document).ready(function() {
 		$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 1400 });
 		$('#phoneClients').countTo({ from: 0, to: phoneClients, speed: 1400 });
 	}, {offset:'85%'});
-
-	if($(window).width() > 767) {
-		$('.service').mouseenter(function(e) {
-			$(this).find('img').animate({paddingBottom: "6px"},500);
-		});
-		
-		$('.service').mouseleave(function(e) {
-			$(this).find('img').stop().animate({paddingBottom: "0px"},500);
-		});
-	}
 	
 	if($(window).width() > 767) {
 		$('.scrollpoint.sp-effect1').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInLeft');},{offset:'90%'});
