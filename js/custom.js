@@ -58,10 +58,30 @@ $(document).ready(function() {
 	$('.carousel').mouseleave(function() {
 		$('.carousel-control').fadeOut(300);
 	});
-	
-	$('#separator').waypoint(function(){$('#separator .number').countTo();},{offset:'85%'});
 
-	/* add 15px bottom padding on hover */
+	function incrementValues() {
+		
+	}
+
+	let initialDate = new Date('01-01-2020');
+	var today = new Date();
+	var diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
+	var hoursWorked = 8 * diff // 8 hours every day, 1 day not worked in 2020
+	var coffeeCups = Math.ceil(1.25 * diff) // 1.25 average cup every day
+	var codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
+	var meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
+	var emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
+	var phoneClients = Math.ceil(0.4 * diff) // 0.4 average hours of phone time with client
+	
+	// Call countTo when scrolled to number section
+	$('#separator').waypoint(function(){
+		$('#hoursWorked').countTo({ from: 0, to: hoursWorked, speed: 2000 });
+		$('#coffeeCups').countTo({ from: 0, to: coffeeCups, speed: 2000 });
+		$('#codeWritten').countTo({ from: 0, to: codeWritten, speed: 2000 });
+		$('#meetingHours').countTo({ from: 0, to: meetingHours, speed: 2000 });
+		$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 2000 });
+		$('#phoneClients').countTo({ from: 0, to: phoneClients, speed: 2000 });
+	}, {offset:'85%'});
 
 	if($(window).width() > 767) {
 		$('.service').mouseenter(function(e) {
@@ -82,6 +102,4 @@ $(document).ready(function() {
 		$('.macbook-inner').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('black');},{offset:'70%'});
 	}
 });
-
-
 
