@@ -17,14 +17,6 @@ $(window).scroll(function(){
 
 $(document).ready(function() {	
 
-	// Count on initial load
-	$('#hoursWorked').countTo({ from: 0, to: hoursWorked, speed: 1400 });
-	$('#coffeeCups').countTo({ from: 0, to: coffeeCups, speed: 1400 });
-	$('#codeWritten').countTo({ from: 0, to: codeWritten, speed: 1400 });
-	$('#meetingHours').countTo({ from: 0, to: meetingHours, speed: 1400 });
-	$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 1400 });
-	$('#phoneClients').countTo({ from: 0, to: phoneClients, speed: 1400 });	
-
 	$("a.scroll[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
