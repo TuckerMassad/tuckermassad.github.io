@@ -71,12 +71,12 @@ $(document).ready(function() {
 	
 	// Call countTo when scrolled to number section
 	$('#separator').waypoint(function(){
-		$('#hoursWorked').countTo({ from: 0, to: hoursWorked, speed: 1400 });
-		$('#coffeeCups').countTo({ from: 0, to: coffeeCups, speed: 1400 });
-		$('#codeWritten').countTo({ from: 0, to: codeWritten, speed: 1400 });
-		$('#meetingHours').countTo({ from: 0, to: meetingHours, speed: 1400 });
-		$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 1400 });
-		$('#phoneClients').countTo({ from: 0, to: phoneClients, speed: 1400 });
+		$('#hoursWorked').countTo({ from: 0, to: hoursWorked, speed: 2400 });
+		$('#coffeeCups').countTo({ from: 0, to: coffeeCups, speed: 2400 });
+		$('#codeWritten').countTo({ from: 0, to: codeWritten, speed: 2400 });
+		$('#meetingHours').countTo({ from: 0, to: meetingHours, speed: 2400 });
+		$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 2400 });
+		$('#phoneClients').countTo({ from: 0, to: phoneClients, speed: 2400 });
 	}, {offset:'85%'});
 	
 	if($(window).width() > 767) {
