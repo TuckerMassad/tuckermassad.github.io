@@ -62,7 +62,7 @@ $(document).ready(function() {
 	let initialDate = new Date('2020-01-01');
 	let today = new Date();
 	let diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
-	let totalWeeks = Math.floor(diff/7);
+	let totalWeeks = Math.ceil(diff/7);
 	let hoursWorked = (8 * diff) - (totalWeeks*2*8) // 8 hours every day, minus 2 days for every week (weekends)
 	let coffeeCups = Math.ceil(1.25 * diff) // 1.25 average cup every day
 	let codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
