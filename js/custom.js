@@ -59,15 +59,16 @@ $(document).ready(function() {
 		$('.carousel-control').fadeOut(300);
 	});
 
-	let initialDate = new Date('01-01-2020');
-	var today = new Date();
-	var diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
-	var hoursWorked = 8 * diff // 8 hours every day, 1 day not worked in 2020
-	var coffeeCups = Math.ceil(1.25 * diff) // 1.25 average cup every day
-	var codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
-	var meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
-	var emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
-	var phoneClients = Math.ceil(0.4 * diff) // 0.4 average hours of phone time with client
+	let initialDate = new Date('01-01-2020 00:00:00');
+	let today = new Date();
+	let diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
+	let totalWeeks = Math.floor(diff/7);
+	let hoursWorked = (8 * diff) - (totalWeeks*2*8) // 8 hours every day, minus 2 days for every week (weekends)
+	let coffeeCups = Math.ceil(1.25 * diff) // 1.25 average cup every day
+	let codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
+	let meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
+	let emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
+	let phoneClients = Math.ceil(0.4 * diff) // 0.4 average hours of phone time with client
 	
 	// Call countTo when scrolled to number section
 	$('#separator').waypoint(function(){
@@ -84,7 +85,6 @@ $(document).ready(function() {
 		$('.scrollpoint.sp-effect2').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInRight');},{offset:'90%'});
 		$('.scrollpoint.sp-effect3').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInDown');},{offset:'90%'});
 		$('.scrollpoint.sp-effect4').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeIn');},{offset:'70%'});
-		
 		$('.macbook-inner').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('black');},{offset:'70%'});
 	}
 });
