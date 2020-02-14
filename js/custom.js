@@ -59,7 +59,7 @@ $(document).ready(function() {
 		$('.carousel-control').fadeOut(300);
 	});
 
-	let initialDate = new Date('01-01-2020 00:00:00');
+	let initialDate = new Date('2020-01-01');
 	let today = new Date();
 	let diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
 	let totalWeeks = Math.floor(diff/7);
