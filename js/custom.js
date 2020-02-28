@@ -20,17 +20,7 @@ $(document).ready(function() {
 	$("a.scroll[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
-		offsetAmount = 0;
-		if(hash == "#about"){
-			offsetAmount = 10;
-		}
-		if(hash == "#services"){
-			offsetAmount = 40;
-		}
-		if(hash == "#contactlanding"){
-			offsetAmount = -20;
-		}
-		$('html, body').animate({ scrollTop: $(this.hash).offset().top - offsetAmount}, 1000);
+		$('html, body').animate({ scrollTop: $(this.hash).offset().top}, 1000, function(){window.location.hash = hash;});
 	});
 	
 	$('#skills-toggle').click(function() {
