@@ -28,7 +28,7 @@ $(document).ready(function() {
 			offsetAmount = 40;
 		}
 		if(hash == "#contactlanding"){
-			offsetAmount = -40;
+			offsetAmount = -20;
 		}
 		$('html, body').animate({ scrollTop: $(this.hash).offset().top - offsetAmount}, 1000);
 	});
