@@ -2759,10 +2759,24 @@ p[data-value]:after {
 }
 
 .footertextsmall {
-	margin-top: 100px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 125px;
 	margin-bottom: -20px;
 	font-size: 11px;
 	font-family: 'Nunito', sans-serif;
+	margin-left: -5px;
+}
+
+@media (max-width: 900px){
+	.footertextsmall {
+		margin-top: 30px;
+	}
+}
+
+.footertextsmall > span {
+	padding-left: 5px;
 }
 
 .yearlytext{
