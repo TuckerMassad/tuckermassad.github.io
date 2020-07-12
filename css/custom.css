@@ -3282,6 +3282,8 @@ blockquote.twitter-tweet a:focus {
 	100% { transform: rotate(359deg); }
 }
 
+/* 
+Pace-js preload bug fix. I think no longer neccessary
 
 body > :not(.pace),body:before,body:after {
 	-webkit-transition:opacity .5s ease-in-out;
@@ -3292,7 +3294,7 @@ body > :not(.pace),body:before,body:after {
 
 body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-done):after {
 	opacity:0;
-}
+} */
 
 
 
