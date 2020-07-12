@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Title -->
+    <title>Blog Post - ReactN: State Management Simplied</title>
+
+    <!-- Favicons  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fonts  -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href='../fonts/typicons/typicons.min.css' rel='stylesheet'>
+    <link href="../css/animate.css" rel="stylesheet" type="text/css">
+    <link href="../css/creative-brands.css" rel="stylesheet" type="text/css">
+    <link href="../css/vertical-carousel.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom.css" rel="stylesheet" type="text/css">
+    <link href="../css/blog.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/cssans.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css">
+
+    <!-- JS Preload -->
+    <script src="../js/preload.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+	<a href="#page-top" class="scroll-up scroll"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- HEADER -->
+    <header>
+
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation"><i class="fas fa-bars"></i></button>
+                    <a href="#page-top"><img src="../image/tucker.png" class="navbar-logo pull-left tuckiconheader" alt="" /></a>
+                    <a href="https://tuckermassad.com" class="navbar-brand animated flipInX">Tucker Massad</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="myNavigation">
+
+                    <ul class="nav navbar-nav navbar-right animated flipInX">
+                        <li><a href="https://tuckermassad.com" class="scroll scrolltext">Back to homepage</a></li>
+                        <li><a href="#contactlanding" class="scroll scrolltext">Contact</a></li>
+                        <!-- <li><a href="blog.html" class="scroll blog_menu_link">Blog</a></li> --> <!-- To add the blog at a later date -->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+
+        <div class="jumbotron">
+
+
+            <canvas id="canvas"></canvas>
+            <!-- end background animation -->
+
+            <div id="bubblewrapperabove"></div>
+            <img src="../image/tucker.png" class="img-responsive scrollpoint sp-effect3 tuckicon" alt=""/>
+
+            <div class="social-wrapper">
+
+                <div id="bubblewrapper">
+
+                  <div class="cssans cssans--center">
+
+                    <div class="scrollpoint sp-effect3 cssans__word">
+                        <b class="cssans:R"></b>
+                        <b class="cssans:e"></b>
+                        <b class="cssans:a"></b>
+                        <b class="cssans:c"></b>
+                        <b class="cssans:t"></b>
+                        <b class="cssans:N"></b>
+                        <b class="cssans::"></b>
+                    </div>
+
+                    <div class="scrollpoint sp-effect3 cssans__word">
+                        <b class="cssans:S"></b>
+                        <b class="cssans:t"></b>
+                        <b class="cssans:a"></b>
+                        <b class="cssans:t"></b>
+                        <b class="cssans:e"></b>
+                    </div>
+
+                    <div class="scrollpoint sp-effect3 cssans__word">
+                      <b class="cssans:M"></b>
+                      <b class="cssans:a"></b>
+                      <b class="cssans:n"></b>
+                      <b class="cssans:a"></b>
+                      <b class="cssans:g"></b>
+                      <b class="cssans:e"></b>
+                      <b class="cssans:m"></b>
+                      <b class="cssans:e"></b>
+                      <b class="cssans:n"></b>
+                      <b class="cssans:t"></b>
+                    </div>
+
+                    <div class="scrollpoint sp-effect3 cssans__word">
+                      <b class="cssans:S"></b>
+                      <b class="cssans:i"></b>
+                      <b class="cssans:m"></b>
+                      <b class="cssans:p"></b>
+                      <b class="cssans:l"></b>
+                      <b class="cssans:i"></b>
+                      <b class="cssans:f"></b>
+                      <b class="cssans:i"></b>
+                      <b class="cssans:e"></b>
+                      <b class="cssans:d"></b>
+                    </div>
+
+                  </div>
+
+                </div>
+
+            </div>
+
+        <a href="#blogpost" class="btn btn-reference btn-lg scroll scrollpoint sp-effect1 jumbobutton" role="button"><i class="fas fa-book-reader"></i> Read article </a>
+        <a href="https://tuckermassad.com" class="btn btn-reference btn-lg scroll scrollpoint sp-effect2 jumbobutton" role="button"><i class="fas fa-chevron-circle-left"></i> Return to homepage <chat></chat></a>
+
+        </div>
+
+    </header>
+
+    <section id="blogpost" class="content-first">
+
+          <div id="blogpost-contents">
+
+            <h4>Posted July 12, 2020</h4>
+            <h5>5-10 min read</h5>
+
+            <p>
+
+              When developing a new mobile app using React Native, a notoriously controversial topic often arises - What is most practical and trouble-free way to handle global state data within the application? A “state” value can be simplified to any data rendered that must be dynamically modified based on local or backend changes, and is important in general, but also in terms of the scalability and performance of a React application.
+            </p>
+
+            <p>
+              Everyone who uses a smartphone or browses the internet will likely interact with a display managed by a state, e.g. the “follower” count displayed on your favorite social media page, a text input in your go-to messaging app, or even something as simple as a checkbox you must click to agree to an application’s “Terms of Service.” Each of these examples must change their display based on corresponding state values, and there are several ways to handle storing and modifying state values in a React application.
+            </p>
+            <p>
+              Global states - state values that are displayed and/or modified in several parts of an application e.g. user information, user-specific settings, or API information - are particularly cumbersome, and several frameworks exist to simplify their management process. The relatively new framework <a href="https://github.com/CharlesStover/reactn">ReactN</a> is an extension of React that mitigates the hardships and stress of managing global state values within a React application. This article will highlight the advantages of using ReactN to handle state management in a React Native mobile application and compare its usability to other popular state management tools.
+            </p>
+            <p>
+              There are several external frameworks out there that are specifically built to be added on top of React to help with state management, as well as the fairly new out-of-the-box <a href="https://reactjs.org/docs/context.html">React Context API</a> built into React itself. We’ll focus on ReactN - as compared to frameworks such as <a href="https://redux.js.org/">Redux</a> as well as React’s very own Context API. Each of these frameworks accomplish the same goal: simplifying the way different components throughout an application access the same necessary data.
+            </p>
+            <p>
+              Worth reiterating is the difference between local and global states. An example that I mentioned - the hypothetical “Terms of Service” checkbox - is a good example of a local state, meaning only a single page (the sign-up form) will need to know if that checkbox is checked or not (the rest of the application does not need that information). A global state contains data that several components across the application will need to access in order to render correctly, e.g. user-specific data such as a username that is displayed on several containers within an application.
+            </p>
+            <p>
+              Without using any of the mentioned frameworks it is still possible to hoist data from one component to another, but this “prop passing” methodology requires coupling between components that would otherwise have no reason to be interconnected. This may require information to be passed through components that don’t need to display the data at all, making the applications hard to scale and burdensome to work with. ReactN, Redux, and React’s Context API all facilitate the challenge of making global state values easily accessible to all components that need access to them, without having to exchange data through props.
+            </p>
+            <p>
+              ReactN’s simplicity is its biggest advantage. It is an extension of the React framework itself so there is no boilerplate that requires tedious copy-pasting of codeblocks and files to begin integrating basic functionalities with a React codebase. It is intuitively built so the learning curve doesn’t take away from development time. Also, it is lightweight and only adds 2kb to the original react framework (<a href="https://bundlephobia.com/result?p=reactn@2.2.4">4.6kb</a> compared to <a href="https://bundlephobia.com/result?p=react@16.12.0">2.6kb</a> minified+gzipped file size).
+            </p>
+            <p>
+              That being said, ReactN has some downsides. Since global statement manipulation can be done from within any component or container, it lacks the explicit manipulation routes (such as reducers in Redux and contexts in the Context API) that determine which components can manipulate specific global data. For larger scale projects, this non-assertive state manipulation can be more burdensome than beneficial, e.g. you wouldn’t want to use ReactN to build an enterprise-scale application because maintaining a global state between hundreds of containers and components while simultaneously needing to manipulate and digest that data would be very cumbersome. Even ReactN creator, Charles Stover, <a href="https://medium.com/@Charles_Stover/reactn-is-absolutely-and-deliberately-tied-to-react-hence-the-name-3526a9bafa78">mentions</a> that it “openly targets small and personal projects, not large or enterprise applications” as the framework is built for applications where global data is in a constant disposition of manipulation. That being said, ReactN is still a viable choice for applications with a large user base, as long as the complexity of components and containers is within reason.
+            </p>
+            <p>
+              Integrating ReactN into an application is simple and works exactly as an experienced React developer would expect it to manipulate local states, using React’s built-in `setState()` function but on an application-wide scale. You use `setGlobal()` to change global data. Getting global data is even easier than manipulating it, as we can simply call `this.global` in order to access information stored in the global state. No explicit connection routes are required and no “providers” or “consumers” definitions are necessary; Simply create a new component and access/manipulate the global state at your will. This structure mitigates the stress of components requiring fluff code that doesn’t have anything to do with the functionality of the component itself. A simplified diagram of the interaction between components and the global state is below. I’ve used the term “Store” (coined by Redux) for our diagrams - where global state information is held/accessed.
+            </p>
+
+            <!-- First image -->
+            <div class="image-wrapper" alt="Diagram of ReactN workflow">
+              <img class="horizontal" src="../image/img-reactn-diagram.png"></img>
+            </div>
+
+            <p>
+              React’s Context API allows developers to integrate global state management into their application without the need of outside frameworks, but it requires a larger amount of actual code and setup in order to perform the same functions that ReactN accomplishes. Without getting into the nitty gritty, the Context API requires initialization of a “contexts” that have two main sub-attributes: “providers” and “consumers.” The context does not hold state values itself, but rather acts as the channel of communication between a ‘provider’ and ‘consumer.’ The ‘provider’ holds mutable state information that can be passed down to its ‘consumer’ for display and avoids prop passing. In practice, this is a fairly usable methodology but it requires a lot of unneeded code initializing - a ‘context’ alongside a ‘provider’ in order to feed information to a component. Here is a very simplified visualization of Context API’s data flow:
+            </p>
+
+            <!-- Second image -->
+            <div class="image-wrapper">
+              <img class="vertical-adjusted" src="../image/img-context-api.png" alt="Diagram of Context API workflow"></img>
+            </div>
+
+            <p>
+              Redux, one of the most popular external state management frameworks, slightly differs from React’s Context API by relying on its “reducer” functionality to connect global information that is required for display with specific components. Additionally, it requires “dispatch” functions that act as the conduit that triggers re-renders when the state data changes. This means that in order to couple state data and components together, there needs to be a separate function that instantiates the connection between the data and the component itself. While in practice this is fairly simple, it forces us to write more code that explicitly defines connections that we wouldn’t need to worry about using ReactN. Here is another simplified diagram for the flow of data in Redux:
+            </p>
+
+            <div class="image-wrapper">
+              <img class="vertical-adjusted" src="../image/img-redux.png" alt="Diagram of Redux workflow"></img>
+            </div>
+
+            <p>
+              Of course it is possible to create efficient and beautifully written applications using Redux and the Context API, but the advantages of ReactN shine brightest in small and medium scale applications that would otherwise require substantially more code (and stress) to set up global state manipulation functionality. With ReactN, only one file is necessary to set the initial global state values and these global states can be connected to your API to allow effortless access to API data within your components. ReactN is young, recently turning <a href="https://www.npmjs.com/package/reactn/v/0.0.1">2 years old</a> at the time of writing this article, but its simplicity and scalability places it firmly in the list of top tier state management frameworks in the contemporary era of React development.
+            </p>
+
+          </div>
+
+    </section>
+
+    <section id="contactabove"></section>
+    <!-- CONTACT -->
+    <span class="anchor" id="contactlanding"></span>
+    <section id="contact" class="content-second">
+        <div class="container">
+        	<h2 class="scrollpoint sp-effect3">Contact me</h2>
+            <div class="contact-alert">
+            </div>
+            <div class="row">
+
+                <div class="col-sm-12">
+                	<img src="../image/macbook.png" class="img-responsive hidden-xs" alt="">
+
+                    <div class="macbook-inner black">
+                    	<div class="row scrollpoint sp-effect4">
+                        	<div class="col-sm-8">
+                            	<h3 class="hidden-xs">Leave a message</h3>
+
+                                <form action="https://formspree.io/xypdrgkm" method="POST">
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="text" class="form-control" placeholder="Name" id="name" data-validation-required-message="Please enter your first name." aria-invalid="false" name="_name">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="email" class="form-control" placeholder="Email" id="lastname" data-validation-required-message="Please enter your last name." aria-invalid="false" name="_email">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="phone" class="form-control" placeholder="Phone Number" id="email" data-validation-required-message="Please enter your email address." aria-invalid="false" name="_phone_number">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <textarea class="form-control" placeholder="Message" id="message" data-validation-required-message="Please enter some message." aria-invalid="false" name="_message"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="col-sm-4">
+
+                                <img src="../image/tucker.png" class="contact-image image-responsive hidden-xs hidden-sm tuckiconlaptop" alt="" />
+                            	<div class="contact-info">
+                                	<p>Tucker Massad</p>
+                                    <p>Boston, MA</p>
+                                    <p>USA</p>
+                                    <p class="emailtext">tuckermassad@gmail.com</p>
+                              </div>
+                            </div>
+                    	</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 scrollpoint sp-effect3">
+
+               			<ul class="brands brands-inline">
+
+                            <li><a href="https://codepen.io/tuckermassad/"><i class="fab fa-codepen hi-icon-effect-8"></i></a></li>
+                            <li><a href="https://github.com/TuckerMassad"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/tuckermassad/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/TuckerCodes"><i class="fab fa-twitter"></i></a></li>
+
+                        </ul>
+
+                </div>
+            </div>
+        </div>
+        <p class="footertext">Copyright © Tucker Massad 2020</p>
+    </section>
+
+
+    <!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+    <script src="../js/creative-brands.js"></script>
+    <script src="../js/jquery.easy-pie-chart.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    
+    <script src="../js/progress.js"></script>
+    <script src="../js/canvasbackground.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.5.1/css-doodle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/CSSPlugin.min.js"></script>
+    <script src="../js/custom.js"></script>
+
+</body>
+
+</html>

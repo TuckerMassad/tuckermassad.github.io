@@ -698,7 +698,6 @@ header {
 	border-left:3px solid #FFFFFF;
 	margin-left:110px;
 	padding-left:0px;
-
 }
 
 .event {
@@ -1008,8 +1007,11 @@ blockquote footer {
 /*------------------------------
 	REFERENCE
 ------------------------------*/
+#blog {
+
+}
+
 .grid {
-	padding: 20px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -1038,6 +1040,15 @@ blockquote footer {
 @media(max-width: 900px){
 	.grid figure {
 		margin-right:30px;
+	}
+	.grid {
+    padding: 0;
+	}
+	.grid li {
+		padding-top: 0;
+	}
+	.grid figure { 
+		margin: 0 1rem;
 	}
 }
 
@@ -1119,10 +1130,10 @@ blockquote footer {
 
 .no-touch .cs-style-4 figure:hover img,
 .cs-style-4 figure.cs-hover img {
-	-webkit-transform: translateX(25%);
-	-moz-transform: translateX(25%);
-	-ms-transform: translateX(25%);
-	transform: translateX(25%);
+	-webkit-transform: translateX(10%);
+	-moz-transform: translateX(10%);
+	-ms-transform: translateX(10%);
+	transform: translateX(10%);
 }
 
 .cs-style-4 figcaption {
@@ -1172,6 +1183,10 @@ blockquote footer {
 
 #blog {
 	text-align:center;
+}
+
+#blog > h2 {
+	margin-top: 0;
 }
 
 .blog-post {
@@ -2810,6 +2825,7 @@ p[data-value]:after {
 .portfolioimage {
 	width: 100%;
 	height: auto;
+	object-fit: contain;
 	min-height: 200px;
 	background-color: white;
 	border-radius: 3em / 20%;
@@ -3134,6 +3150,9 @@ blockquote.twitter-tweet a:focus {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	align-self: center;
+	max-width: 1200px;
+	margin: auto;
 	margin-bottom: -1.4rem;
 }
 
@@ -3153,7 +3172,6 @@ blockquote.twitter-tweet a:focus {
 	--cssans-accent2: 120,174,45;
 	--cssans-accent3: 71,75,79;
 	padding-top: 1rem;
-
 }
 
 .sliftleft {
