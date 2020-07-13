@@ -3206,7 +3206,6 @@ blockquote.twitter-tweet a:focus {
 }
 
 /* Preload Animation */
-
 .pace {
 	-webkit-pointer-events: none;
 	pointer-events: none;
