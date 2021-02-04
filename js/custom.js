@@ -64,7 +64,7 @@ $(document).ready(function() {
 		$('.carousel-control').fadeOut(300);
 	});
 
-	let initialDate = new Date('2020-01-01');
+	let initialDate = new Date('2021-01-01');
 	let today = new Date();
 	let diff = Math.floor((today - initialDate)/(1000*60*60*24)) // Days since Jan 1, 2020
 	let totalWeeks = Math.ceil(diff/7);
@@ -73,7 +73,7 @@ $(document).ready(function() {
 	let codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
 	let meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
 	let emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
-	let daysAtHome = Math.ceil(1 * diff) - 68 // 1 day at home per day from jan 1
+	let daysAtHome = Math.ceil(1 * diff) // 1 day at home per day from jan 1
 	
 	// Call countTo when scrolled to number section
 	$('#separator').waypoint(function(){
