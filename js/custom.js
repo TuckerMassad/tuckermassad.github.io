@@ -73,7 +73,7 @@ $(document).ready(function() {
 	let codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
 	let meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
 	let emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
-	let havingFun = Math.ceil(1 * diff) // 1 day at home per day from jan 1
+	let havingFun = Math.ceil(diff) // 1 day at home per day from jan 1
 	
 	// Call countTo when scrolled to number section
 	$('#separator').waypoint(function(){
