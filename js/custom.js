@@ -73,7 +73,7 @@ $(document).ready(function() {
 	let codeWritten = Math.ceil(72.5 * diff)  // 72.5 average lines per day of deployed code
 	let meetingHours = Math.ceil(0.8 * diff) // 0.8 average meeting hour per day
 	let emailsAmount = Math.ceil(7.8 * diff) // 37.8 average emails per day
-	let daysAtHome = Math.ceil(1 * diff) // 1 day at home per day from jan 1
+	let havingFun = Math.ceil(1 * diff) // 1 day at home per day from jan 1
 	
 	// Call countTo when scrolled to number section
 	$('#separator').waypoint(function(){
@@ -82,7 +82,7 @@ $(document).ready(function() {
 		$('#codeWritten').countTo({ from: 0, to: codeWritten, speed: 2400 });
 		$('#meetingHours').countTo({ from: 0, to: meetingHours, speed: 2400 });
 		$('#emailsAmount').countTo({ from: 0, to: emailsAmount, speed: 2400 });
-		$('#daysAtHome').countTo({ from: 0, to: daysAtHome, speed: 2400 });
+		$('#havingFun').countTo({ from: 0, to: havingFun, speed: 2400 });
 	}, {offset:'85%'});
 	
 	if($(window).width() > 767) {
